@@ -425,7 +425,6 @@ df222_final_midweek$time <- hms::as_hms(df222_final_midweek$time)
 readr::write_csv(df222_final2,paste0(outputdir,"/","Avg_midweek",".csv"))
 return(df222_final)
 }
-dttt <- function5("C:/Users/Abdullah.Shabarek/Desktop/TOD/SM_files","C:/Users/Abdullah.Shabarek/Desktop/TOD/output_sep")
 
 
 
