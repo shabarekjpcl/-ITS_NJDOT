@@ -14,7 +14,8 @@ end_zone <- 4
 df222_final <- NULL
 
 for (kij in sm_list){
-
+print(kij)
+# Sys.sleep(100)
 df <- read.delim2(paste0(inputdir,"/",kij),header = FALSE)
 df_final <- NULL
 df_tmp1 <- df
@@ -282,7 +283,7 @@ for ( i in length(Date_Tue_list)){
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
   df222_final2_Tue$time <- hms::as_hms(df222_final2_Tue $time)
-  readr::write_csv(df222_final2,paste0(outputdir,"/","Tue_",as.Date(Date_Tue_list[i]),"_zone",z,".csv"))
+  readr::write_csv(df222_final2_Tue,paste0(outputdir,"/","Tue_",as.Date(Date_Tue_list[i]),"_zone",z,".csv"))
 }
 
 df222_final_Wed <- df222_final[df222_final$Day == "Wednesday",]
@@ -301,7 +302,7 @@ for ( i in length(Date_Wed_list)){
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
   df222_final2_Wed$time <- hms::as_hms(df222_final2_Wed $time)
-  readr::write_csv(df222_final2,paste0(outputdir,"/","Wed_",as.Date(Date_Wed_list[i]),"_zone",z,".csv"))
+  readr::write_csv(df222_final2_Wed,paste0(outputdir,"/","Wed_",as.Date(Date_Wed_list[i]),"_zone",z,".csv"))
 }
 
 df222_final_Thu <- df222_final[df222_final$Day == "Thursday",]
@@ -320,7 +321,7 @@ for ( i in length(Date_Thu_list)){
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
   df222_final2_Thu$time <- hms::as_hms(df222_final2_Thu $time)
-  readr::write_csv(df222_final2,paste0(outputdir,"/","Thu_",as.Date(Date_Thu_list[i]),"_zone",z,".csv"))
+  readr::write_csv(df222_final2_Thu,paste0(outputdir,"/","Thu_",as.Date(Date_Thu_list[i]),"_zone",z,".csv"))
 }
 
 df222_final_Sat <- df222_final[df222_final$Day == "Saturday",]
@@ -339,7 +340,7 @@ for ( i in length(Date_Sat_list)){
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
   df222_final2_Sat$time <- hms::as_hms(df222_final2_Sat $time)
-  readr::write_csv(df222_final2,paste0(outputdir,"/","Sat_",as.Date(Date_Sat_list[i]),"_zone",z,".csv"))
+  readr::write_csv(df222_final2_Sat,paste0(outputdir,"/","Sat_",as.Date(Date_Sat_list[i]),"_zone",z,".csv"))
 }
 
 df222_final_Sun <- df222_final[df222_final$Day == "Sunday",]
@@ -358,7 +359,7 @@ for ( i in length(Date_Sun_list)){
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
   df222_final2_Sun$time <- hms::as_hms(df222_final2_Sun $time)
-  readr::write_csv(df222_final2,paste0(outputdir,"/","Sun_",as.Date(Date_Sun_list[i]),"_zone",z,".csv"))
+  readr::write_csv(df222_final2_Sun,paste0(outputdir,"/","Sun_",as.Date(Date_Sun_list[i]),"_zone",z,".csv"))
 }
 
 df222_final_Tue <- sqldf::sqldf(paste0("select a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
@@ -425,7 +426,7 @@ df222_final_midweek <- sqldf::sqldf("select a.time, a.zone, a.Day, a.weektype, a
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
 df222_final_midweek$time <- hms::as_hms(df222_final_midweek$time)
-readr::write_csv(df222_final2,paste0(outputdir,"/","Avg_midweek_zone",z,".csv"))
+readr::write_csv(df222_final_midweek,paste0(outputdir,"/","Avg_midweek_zone",z,".csv"))
 }
 return(df222_final)
 }
