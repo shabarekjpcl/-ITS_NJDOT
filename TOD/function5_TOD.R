@@ -8,8 +8,11 @@ phase_naming_file <- "https://raw.githubusercontent.com/shabarekjpcl/ITS_NJDOT/m
 phase_directions_file <- "https://raw.githubusercontent.com/shabarekjpcl/ITS_NJDOT/main/SCATS_Phasing.csv"
 zones_file <- "https://raw.githubusercontent.com/shabarekjpcl/ITS_NJDOT/main/TOD/Zones.csv"
 TOD_cycle_length_file <- "https://raw.githubusercontent.com/shabarekjpcl/ITS_NJDOT/main/TOD/TOD_cycle_length.csv"
+start_zone <- 1
+end_zone <- 4
 
 df222_final <- NULL
+
 for (kij in sm_list){
 
 df <- read.delim2(paste0(inputdir,"/",kij),header = FALSE)
@@ -262,16 +265,16 @@ TOD_cycle_length$Time <- as.integer(hms::as_hms(TOD_cycle_length$Time))
 df222$subsite <- NULL
 # df222$time <- hms::as_hms(df222$time)
 df222_final <- rbind(df222,df222_final)}
-
+for (z in (start_zone:end_zone)){
 df222_final_Tue <- df222_final[df222_final$Day == "Tuesday",]
 Date_Tue_list <- unique(df222_final_Tue$Date)
 for ( i in length(Date_Tue_list)){
   print(as.Date(Date_Tue_list[i]))
   df222_final_Tue2 <- df222_final_Tue[df222_final_Tue$Date == as.Date(Date_Tue_list[i]),]
-  df222_final2_Tue <- sqldf::sqldf("select a.Date, a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
+  df222_final2_Tue <- sqldf::sqldf(paste0("select a.Date, a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
                              from df222_final_Tue2 as a
-                             where a.weektype <> 'Monday' and a.weektype <> 'Friday'
-                             group by a.time, a.zone, a.weektype")
+                             where a.weektype <> 'Monday' and a.weektype <> 'Friday' and a.zone=",z,
+                             " group by a.time, a.zone, a.weektype"), drv = "SQLite")
   
   
   df222_final2_Tue <- sqldf::sqldf("select a.Date, a.time, a.zone, a.Day, a.weektype, a.Nominal_Cycle_Length, a.Required_Cycle_Length, b.Cycle_Length as TOD_Cycle_Length
@@ -279,7 +282,7 @@ for ( i in length(Date_Tue_list)){
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
   df222_final2_Tue$time <- hms::as_hms(df222_final2_Tue $time)
-  readr::write_csv(df222_final2,paste0(outputdir,"/","Tue_",as.Date(Date_Tue_list[i]),".csv"))
+  readr::write_csv(df222_final2,paste0(outputdir,"/","Tue_",as.Date(Date_Tue_list[i]),"_zone",z,".csv"))
 }
 
 df222_final_Wed <- df222_final[df222_final$Day == "Wednesday",]
@@ -287,10 +290,10 @@ Date_Wed_list <- unique(df222_final_Wed$Date)
 for ( i in length(Date_Wed_list)){
   print(as.Date(Date_Wed_list[i]))
   df222_final_Wed2 <- df222_final_Wed[df222_final_Wed$Date == as.Date(Date_Wed_list[i]),]
-  df222_final2_Wed <- sqldf::sqldf("select a.Date, a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
+  df222_final2_Wed <- sqldf::sqldf(paste0("select a.Date, a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
                              from df222_final_Wed2 as a
-                             where a.weektype <> 'Monday' and a.weektype <> 'Friday'
-                             group by a.time, a.zone, a.weektype")
+                             where a.weektype <> 'Monday' and a.weektype <> 'Friday' and a.zone=",z,
+                                          " group by a.time, a.zone, a.weektype"), drv = "SQLite")
   
   
   df222_final2_Wed <- sqldf::sqldf("select a.Date, a.time, a.zone, a.Day, a.weektype, a.Nominal_Cycle_Length, a.Required_Cycle_Length, b.Cycle_Length as TOD_Cycle_Length
@@ -298,7 +301,7 @@ for ( i in length(Date_Wed_list)){
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
   df222_final2_Wed$time <- hms::as_hms(df222_final2_Wed $time)
-  readr::write_csv(df222_final2,paste0(outputdir,"/","Wed_",as.Date(Date_Wed_list[i]),".csv"))
+  readr::write_csv(df222_final2,paste0(outputdir,"/","Wed_",as.Date(Date_Wed_list[i]),"_zone",z,".csv"))
 }
 
 df222_final_Thu <- df222_final[df222_final$Day == "Thursday",]
@@ -306,10 +309,10 @@ Date_Thu_list <- unique(df222_final_Thu$Date)
 for ( i in length(Date_Thu_list)){
   print(as.Date(Date_Thu_list[i]))
   df222_final_Thu2 <- df222_final_Thu[df222_final_Thu$Date == as.Date(Date_Thu_list[i]),]
-  df222_final2_Thu <- sqldf::sqldf("select a.Date, a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
+  df222_final2_Thu <- sqldf::sqldf(paste0("select a.Date, a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
                              from df222_final_Thu2 as a
-                             where a.weektype <> 'Monday' and a.weektype <> 'Friday'
-                             group by a.time, a.zone, a.weektype")
+                             where a.weektype <> 'Monday' and a.weektype <> 'Friday' and a.zone=",z,
+                                          " group by a.time, a.zone, a.weektype"), drv = "SQLite")
   
   
   df222_final2_Thu <- sqldf::sqldf("select a.Date, a.time, a.zone, a.Day, a.weektype, a.Nominal_Cycle_Length, a.Required_Cycle_Length, b.Cycle_Length as TOD_Cycle_Length
@@ -317,7 +320,7 @@ for ( i in length(Date_Thu_list)){
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
   df222_final2_Thu$time <- hms::as_hms(df222_final2_Thu $time)
-  readr::write_csv(df222_final2,paste0(outputdir,"/","Thu_",as.Date(Date_Thu_list[i]),".csv"))
+  readr::write_csv(df222_final2,paste0(outputdir,"/","Thu_",as.Date(Date_Thu_list[i]),"_zone",z,".csv"))
 }
 
 df222_final_Sat <- df222_final[df222_final$Day == "Saturday",]
@@ -325,10 +328,10 @@ Date_Sat_list <- unique(df222_final_Sat$Date)
 for ( i in length(Date_Sat_list)){
   print(as.Date(Date_Sat_list[i]))
   df222_final_Sat2 <- df222_final_Sat[df222_final_Sat$Date == as.Date(Date_Sat_list[i]),]
-  df222_final2_Sat <- sqldf::sqldf("select a.Date, a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
+  df222_final2_Sat <- sqldf::sqldf(paste0("select a.Date, a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
                              from df222_final_Sat2 as a
-                             where a.weektype <> 'Monday' and a.weektype <> 'Friday'
-                             group by a.time, a.zone, a.weektype")
+                             where a.weektype <> 'Monday' and a.weektype <> 'Friday' and a.zone=",z,
+                                          " group by a.time, a.zone, a.weektype"), drv = "SQLite")
   
   
   df222_final2_Sat <- sqldf::sqldf("select a.Date, a.time, a.zone, a.Day, a.weektype, a.Nominal_Cycle_Length, a.Required_Cycle_Length, b.Cycle_Length as TOD_Cycle_Length
@@ -336,7 +339,7 @@ for ( i in length(Date_Sat_list)){
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
   df222_final2_Sat$time <- hms::as_hms(df222_final2_Sat $time)
-  readr::write_csv(df222_final2,paste0(outputdir,"/","Sat_",as.Date(Date_Sat_list[i]),".csv"))
+  readr::write_csv(df222_final2,paste0(outputdir,"/","Sat_",as.Date(Date_Sat_list[i]),"_zone",z,".csv"))
 }
 
 df222_final_Sun <- df222_final[df222_final$Day == "Sunday",]
@@ -344,10 +347,10 @@ Date_Sun_list <- unique(df222_final_Sun$Date)
 for ( i in length(Date_Sun_list)){
   print(as.Date(Date_Sun_list[i]))
   df222_final_Sun2 <- df222_final_Sun[df222_final_Sun$Date == as.Date(Date_Sun_list[i]),]
-  df222_final2_Sun <- sqldf::sqldf("select a.Date, a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
+  df222_final2_Sun <- sqldf::sqldf(paste0("select a.Date, a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
                              from df222_final_Sun2 as a
-                             where a.weektype <> 'Monday' and a.weektype <> 'Friday'
-                             group by a.time, a.zone, a.weektype")
+                             where a.weektype <> 'Monday' and a.weektype <> 'Friday' and a.zone=",z,
+                                          " group by a.time, a.zone, a.weektype"), drv = "SQLite")
   
   
   df222_final2_Sun <- sqldf::sqldf("select a.Date, a.time, a.zone, a.Day, a.weektype, a.Nominal_Cycle_Length, a.Required_Cycle_Length, b.Cycle_Length as TOD_Cycle_Length
@@ -355,78 +358,74 @@ for ( i in length(Date_Sun_list)){
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
   df222_final2_Sun$time <- hms::as_hms(df222_final2_Sun $time)
-  readr::write_csv(df222_final2,paste0(outputdir,"/","Sun_",as.Date(Date_Sun_list[i]),".csv"))
+  readr::write_csv(df222_final2,paste0(outputdir,"/","Sun_",as.Date(Date_Sun_list[i]),"_zone",z,".csv"))
 }
 
-df222_final_Tue <- sqldf::sqldf("select a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
+df222_final_Tue <- sqldf::sqldf(paste0("select a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
                              from df222_final as a
-                             where a.Day = 'Tuesday'
-                             group by a.time, a.zone, a.weektype, a.Day")
+                             where a.Day = 'Tuesday' and a.zone = ",z,
+                             " group by a.time, a.zone, a.weektype, a.Day"), drv = "SQLite")
 df222_final_Tue2 <- sqldf::sqldf("select a.time, a.zone, a.Day, a.weektype, a.Nominal_Cycle_Length, a.Required_Cycle_Length, b.Cycle_Length as TOD_Cycle_Length
                       from df222_final_Tue as a
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
 df222_final_Tue2$time <- hms::as_hms(df222_final_Tue2$time)
-readr::write_csv(df222_final_Tue2,paste0(outputdir,"/","Avg_Tue",".csv"))
+readr::write_csv(df222_final_Tue2,paste0(outputdir,"/","Avg_Tue_zone",z,".csv"))
 
-df222_final_Wed <- sqldf::sqldf("select a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
+df222_final_Wed <- sqldf::sqldf(paste0("select a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
                              from df222_final as a
-                             where a.Day = 'Wednesday'
-                             group by a.time, a.zone, a.weektype, a.Day")
+                             where a.Day = 'Wednesday' and a.zone = ",z,
+                                       " group by a.time, a.zone, a.weektype, a.Day"), drv = "SQLite")
 df222_final_Wed2 <- sqldf::sqldf("select a.time, a.zone, a.Day, a.weektype, a.Nominal_Cycle_Length, a.Required_Cycle_Length, b.Cycle_Length as TOD_Cycle_Length
                       from df222_final_Wed as a
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
 df222_final_Wed2$time <- hms::as_hms(df222_final_Wed2$time)
-readr::write_csv(df222_final_Wed2,paste0(outputdir,"/","Avg_Wed",".csv"))
+readr::write_csv(df222_final_Wed2,paste0(outputdir,"/","Avg_Wed_zone",z,".csv"))
 
-df222_final_Thu <- sqldf::sqldf("select a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
+df222_final_Thu <- sqldf::sqldf(paste0("select a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
                              from df222_final as a
-                             where a.Day = 'Thursday'
-                             group by a.time, a.zone, a.weektype, a.Day")
+                             where a.Day = 'Thursday' and a.zone = ",z,
+                                       " group by a.time, a.zone, a.weektype, a.Day"), drv = "SQLite")
 df222_final_Thu2 <- sqldf::sqldf("select a.time, a.zone, a.Day, a.weektype, a.Nominal_Cycle_Length, a.Required_Cycle_Length, b.Cycle_Length as TOD_Cycle_Length
                       from df222_final_Thu as a
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
 df222_final_Thu2$time <- hms::as_hms(df222_final_Thu2$time)
-readr::write_csv(df222_final_Thu2,paste0(outputdir,"/","Avg_Thu",".csv"))
+readr::write_csv(df222_final_Thu2,paste0(outputdir,"/","Avg_Thu_zone",z,".csv"))
 
-df222_final_Sat <- sqldf::sqldf("select a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
+df222_final_Sat <- sqldf::sqldf(paste0("select a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
                              from df222_final as a
-                             where a.Day = 'Saturday'
-                             group by a.time, a.zone, a.weektype, a.Day")
+                             where a.Day = 'Saturday' and a.zone = ",z,
+                                       " group by a.time, a.zone, a.weektype, a.Day"), drv = "SQLite")
 df222_final_Sat2 <- sqldf::sqldf("select a.time, a.zone, a.Day, a.weektype, a.Nominal_Cycle_Length, a.Required_Cycle_Length, b.Cycle_Length as TOD_Cycle_Length
                       from df222_final_Sat as a
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
 df222_final_Sat2$time <- hms::as_hms(df222_final_Sat2$time)
-readr::write_csv(df222_final_Sat2,paste0(outputdir,"/","Avg_Sat",".csv"))
+readr::write_csv(df222_final_Sat2,paste0(outputdir,"/","Avg_Sat_zone",z,".csv"))
 
-df222_final_Sun <- sqldf::sqldf("select a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
+df222_final_Sun <- sqldf::sqldf(paste0("select a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
                              from df222_final as a
-                             where a.Day = 'Sunday'
-                             group by a.time, a.zone, a.weektype, a.Day")
+                             where a.Day = 'Sunday' and a.zone = ",z,
+                                       " group by a.time, a.zone, a.weektype, a.Day"), drv = "SQLite")
 df222_final_Sun2 <- sqldf::sqldf("select a.time, a.zone, a.Day, a.weektype, a.Nominal_Cycle_Length, a.Required_Cycle_Length, b.Cycle_Length as TOD_Cycle_Length
                       from df222_final_Sun as a
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
 df222_final_Sun2$time <- hms::as_hms(df222_final_Sun2$time)
-readr::write_csv(df222_final_Sun2,paste0(outputdir,"/","Avg_Sun",".csv"))
+readr::write_csv(df222_final_Sun2,paste0(outputdir,"/","Avg_Sun_zone",z,".csv"))
 
-df222_final_midweek <- sqldf::sqldf("select a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
+df222_final_midweek <- sqldf::sqldf(paste0("select a.time, a.zone, a.Day, a.weektype, avg(a.Cycle_Length) as Nominal_Cycle_Length, avg(a.Required_Cycle_Length) as Required_Cycle_Length
                              from df222_final as a
-                             where a.weektype <> 'Monday' and a.weektype <> 'Friday' and a.weektype ='Midweek'
-                             group by a.time, a.zone, a.weektype")
+                             where a.weektype <> 'Monday' and a.weektype <> 'Friday' and a.weektype ='Midweek' and a.zone =",z,
+                             " group by a.time, a.zone, a.weektype"),drv="SQLite")
 df222_final_midweek <- sqldf::sqldf("select a.time, a.zone, a.Day, a.weektype, a.Nominal_Cycle_Length, a.Required_Cycle_Length, b.Cycle_Length as TOD_Cycle_Length
                       from df222_final_midweek as a
                       Left join TOD_cycle_length as b
                       On a.time = b.Time and a.zone = b.Zone and a.Day = b.Day_name", drv = "SQLite")
 df222_final_midweek$time <- hms::as_hms(df222_final_midweek$time)
-readr::write_csv(df222_final2,paste0(outputdir,"/","Avg_midweek",".csv"))
+readr::write_csv(df222_final2,paste0(outputdir,"/","Avg_midweek_zone",z,".csv"))
+}
 return(df222_final)
 }
-
-
-
-
-
