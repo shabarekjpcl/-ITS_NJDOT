@@ -1,0 +1,1305 @@
+Site_ID,Detector,Direction,Street,Type,Intersection
+10026,1,SB,Main,Signal,Sand Hill Road - Major Road 
+10026,2,SB,Main,Signal,Sand Hill Road - Major Road 
+10026,3,WB,Minor,Signal,Sand Hill Road - Major Road 
+10026,4,WB,Minor,Signal,Sand Hill Road - Major Road 
+10026,5,WB,Minor,Signal,Sand Hill Road - Major Road 
+10026,6,NB,Main,Signal,Sand Hill Road - Major Road 
+10026,7,NB,Main,Signal,Sand Hill Road - Major Road 
+10026,8,EB,Minor,Signal,Sand Hill Road - Major Road 
+10026,9,EB,Minor,Signal,Sand Hill Road - Major Road 
+10026,10,EB,Minor,Signal,Sand Hill Road - Major Road 
+10026,17,SB,Main,MidBlock,Sand Hill Road - Major Road 
+10026,18,SB,Main,MidBlock,Sand Hill Road - Major Road 
+10026,21,NB,Main,MidBlock,Sand Hill Road - Major Road 
+10026,22,NB,Main,MidBlock,Sand Hill Road - Major Road 
+1800,1,SB,Main,Signal,Hillsdale Lane 
+1800,2,SB,Main,Signal,Hillsdale Lane 
+1800,3,SB,Main,Signal,Hillsdale Lane 
+1800,4,SB,Main,Signal,Hillsdale Lane 
+1800,5,EB,Minor,Signal,Hillsdale Lane 
+1800,6,EB,Minor,Signal,Hillsdale Lane 
+1800,7,NB,Main,Signal,Hillsdale Lane 
+1800,8,NB,Main,Signal,Hillsdale Lane 
+1800,9,NB,Main,Signal,Hillsdale Lane 
+1800,10,NB,Main,Signal,Hillsdale Lane 
+1800,11,WB,Minor,Signal,Hillsdale Lane 
+1800,12,WB,Minor,Signal,Hillsdale Lane 
+1800,17,NB,Main,MidBlock,Hillsdale Lane 
+1800,18,NB,Main,MidBlock,Hillsdale Lane 
+1800,19,NB,Main,MidBlock,Hillsdale Lane 
+1800,20,NB,Main,MidBlock,Hillsdale Lane 
+1800,21,SB,Main,MidBlock,Hillsdale Lane 
+1800,22,SB,Main,MidBlock,Hillsdale Lane 
+1800,23,SB,Main,MidBlock,Hillsdale Lane 
+1801,1,SB,Main,Signal,Rues Lane
+1801,2,SB,Main,Signal,Rues Lane
+1801,3,SB,Main,Signal,Rues Lane
+1801,4,EB,Minor,Signal,Rues Lane
+1801,5,EB,Minor,Signal,Rues Lane
+1801,6,EB,Minor,Signal,Rues Lane
+1801,7,NB,Main,Signal,Rues Lane
+1801,8,NB,Main,Signal,Rues Lane
+1801,9,NB,Main,Signal,Rues Lane
+1801,10,WB,Minor,Signal,Rues Lane
+1801,11,WB,Minor,Signal,Rues Lane
+1801,17,NB,Main,MidBlock,Rues Lane
+1801,18,NB,Main,MidBlock,Rues Lane
+1801,19,NB,Main,MidBlock,Rues Lane
+1802,1,SB,Main,Signal,East Brunswick Square Mall Driveway 
+1802,2,SB,Main,Signal,East Brunswick Square Mall Driveway 
+1802,3,SB,Main,Signal,East Brunswick Square Mall Driveway 
+1802,4,WB,Minor,Signal,East Brunswick Square Mall Driveway 
+1802,5,WB,Minor,Signal,East Brunswick Square Mall Driveway 
+1802,6,NB,Main,Signal,East Brunswick Square Mall Driveway 
+1802,7,NB,Main,Signal,East Brunswick Square Mall Driveway 
+1802,8,NB,Main,Signal,East Brunswick Square Mall Driveway 
+1802,9,EB,Minor,Signal,East Brunswick Square Mall Driveway 
+1802,10,EB,Minor,Signal,East Brunswick Square Mall Driveway 
+1803,1,SB,Main,Signal,Racetrack Road 
+1803,2,SB,Main,Signal,Racetrack Road 
+1803,3,SB,Main,Signal,Racetrack Road 
+1803,4,WB,Minor,Signal,Racetrack Road 
+1803,5,WB,Minor,Signal,Racetrack Road 
+1803,6,NB,Main,Signal,Racetrack Road 
+1803,7,NB,Main,Signal,Racetrack Road 
+1803,8,NB,Main,Signal,Racetrack Road 
+1803,9,EB,Minor,Signal,Racetrack Road 
+1803,10,EB,Minor,Signal,Racetrack Road 
+1804,1,SB,Main,Signal,Arthur Street 
+1804,2,SB,Main,Signal,Arthur Street 
+1804,3,SB,Main,Signal,Arthur Street 
+1804,4,WB,Minor,Signal,Arthur Street 
+1804,5,WB,Minor,Signal,Arthur Street 
+1804,6,NB,Minor,Signal,Arthur Street 
+1804,7,NB,Minor,Signal,Arthur Street 
+1804,8,NB,Minor,Signal,Arthur Street 
+1804,9,EB,Minor,Signal,Arthur Street 
+1804,10,EB,Minor,Signal,Arthur Street 
+1804,21,SB,Main,MidBlock,Arthur Street 
+1804,22,SB,Main,MidBlock,Arthur Street 
+1804,23,SB,Main,MidBlock,Arthur Street 
+1804,24,SB,Main,MidBlock,Arthur Street 
+1805,1,SB,Main,Signal,West Ferris Street 
+1805,2,SB,Main,Signal,West Ferris Street 
+1805,3,SB,Main,Signal,West Ferris Street 
+1805,4,WB,Minor,Signal,West Ferris Street 
+1805,5,WB,Minor,Signal,West Ferris Street 
+1805,6,NB,Main,Signal,West Ferris Street 
+1805,7,NB,Main,Signal,West Ferris Street 
+1805,8,NB,Main,Signal,West Ferris Street 
+1805,9,EB,Minor,Signal,West Ferris Street 
+1805,10,EB,Minor,Signal,West Ferris Street 
+1805,17,NB,Main,MidBlock,West Ferris Street 
+1805,18,NB,Main,MidBlock,West Ferris Street 
+1805,19,NB,Main,MidBlock,West Ferris Street 
+1806,1,SB,Main,Signal,Highland Street - Shopping Center 
+1806,2,SB,Main,Signal,Highland Street - Shopping Center 
+1806,3,SB,Main,Signal,Highland Street - Shopping Center 
+1806,4,EB,Minor,Signal,Highland Street - Shopping Center 
+1806,5,EB,Minor,Signal,Highland Street - Shopping Center 
+1806,6,EB,Minor,Signal,Highland Street - Shopping Center 
+1806,7,NB,Main,Signal,Highland Street - Shopping Center 
+1806,8,NB,Main,Signal,Highland Street - Shopping Center 
+1806,9,NB,Main,Signal,Highland Street - Shopping Center 
+1807,1,SB,Main,Signal,Tices Lane 
+1807,2,SB,Main,Signal,Tices Lane 
+1807,3,SB,Main,Signal,Tices Lane 
+1807,4,EB,Minor,Signal,Tices Lane 
+1807,5,EB,Minor,Signal,Tices Lane 
+1807,6,NB,Main,Signal,Tices Lane 
+1807,7,NB,Main,Signal,Tices Lane 
+1807,8,NB,Main,Signal,Tices Lane 
+1807,9,NB,Main,Signal,Tices Lane 
+1807,10,WB,Minor,Signal,Tices Lane 
+1807,11,WB,Minor,Signal,Tices Lane 
+1807,12,WB,Minor,Signal,Tices Lane 
+1807,13,WB,Minor,Signal,Tices Lane 
+1807,21,SB,Main,MidBlock,Tices Lane 
+1807,22,SB,Main,MidBlock,Tices Lane 
+1807,23,SB,Main,MidBlock,Tices Lane 
+1808,1,SB,Main,Signal,Edgeboro Road - Old Bridge Turnpike
+1808,2,SB,Main,Signal,Edgeboro Road - Old Bridge Turnpike
+1808,3,SB,Main,Signal,Edgeboro Road - Old Bridge Turnpike
+1808,4,SB,Main,Signal,Edgeboro Road - Old Bridge Turnpike
+1808,5,EB,Minor,Signal,Edgeboro Road - Old Bridge Turnpike
+1808,6,EB,Minor,Signal,Edgeboro Road - Old Bridge Turnpike
+1808,7,NB,Main,Signal,Edgeboro Road - Old Bridge Turnpike
+1808,8,NB,Main,Signal,Edgeboro Road - Old Bridge Turnpike
+1808,9,NB,Main,Signal,Edgeboro Road - Old Bridge Turnpike
+1808,10,WB,Minor,Signal,Edgeboro Road - Old Bridge Turnpike
+1808,11,WB,Minor,Signal,Edgeboro Road - Old Bridge Turnpike
+1808,12,WB,Minor,MidBlock,Edgeboro Road - Old Bridge Turnpike
+1808,13,WB,Minor,MidBlock,Edgeboro Road - Old Bridge Turnpike
+1808,14,WB,Minor,MidBlock,Edgeboro Road - Old Bridge Turnpike
+1808,15,WB,Minor,Signal,Edgeboro Road - Old Bridge Turnpike
+1808,17,NB,Main,MidBlock,Edgeboro Road - Old Bridge Turnpike
+1808,18,NB,Main,MidBlock,Edgeboro Road - Old Bridge Turnpike
+1808,19,NB,Main,MidBlock,Edgeboro Road - Old Bridge Turnpike
+1808,21,SB,Main,MidBlock,Edgeboro Road - Old Bridge Turnpike
+1808,22,SB,Main,MidBlock,Edgeboro Road - Old Bridge Turnpike
+1808,23,SB,Main,MidBlock,Edgeboro Road - Old Bridge Turnpike
+1809,1,SB,Main,Signal,Eggers Street - South Woodland Avenue 
+1809,2,SB,Main,Signal,Eggers Street - South Woodland Avenue 
+1809,3,SB,Main,Signal,Eggers Street - South Woodland Avenue 
+1809,4,EB,Minor,Signal,Eggers Street - South Woodland Avenue 
+1809,5,EB,Minor,Signal,Eggers Street - South Woodland Avenue 
+1809,6,NB,Main,Signal,Eggers Street - South Woodland Avenue 
+1809,7,NB,Main,Signal,Eggers Street - South Woodland Avenue 
+1809,8,NB,Main,Signal,Eggers Street - South Woodland Avenue 
+1809,9,WB,Minor,Signal,Eggers Street - South Woodland Avenue 
+1809,10,WB,Minor,Signal,Eggers Street - South Woodland Avenue 
+1809,17,NB,Main,MidBlock,Eggers Street - South Woodland Avenue 
+1809,18,NB,Main,MidBlock,Eggers Street - South Woodland Avenue 
+1809,19,NB,Main,MidBlock,Eggers Street - South Woodland Avenue 
+1809,21,SB,Main,MidBlock,Eggers Street - South Woodland Avenue 
+1809,22,SB,Main,MidBlock,Eggers Street - South Woodland Avenue 
+1809,23,SB,Main,MidBlock,Eggers Street - South Woodland Avenue 
+1810,1,SB,Main,Signal,Naricon Place 
+1810,2,SB,Main,Signal,Naricon Place 
+1810,3,SB,Main,Signal,Naricon Place 
+1810,4,SB,Main,Signal,Naricon Place 
+1810,5,SB,Main,Signal,Naricon Place 
+1810,6,SB,Main,Signal,Naricon Place 
+1810,7,EB,Minor,Signal,Naricon Place 
+1810,8,EB,Minor,Signal,Naricon Place 
+1810,9,EB,Minor,Signal,Naricon Place 
+1810,10,NB,Main,Signal,Naricon Place 
+1810,11,NB,Main,Signal,Naricon Place 
+1810,12,NB,Main,Signal,Naricon Place 
+1810,13,WB,Minor,Signal,Naricon Place 
+1810,14,WB,Minor,Signal,Naricon Place 
+1810,15,WB,Minor,Signal,Naricon Place 
+1810,16,WB,Minor,Signal,Naricon Place 
+1810,18,WB,Minor,MidBlock,Naricon Place 
+1810,21,SB,Main,MidBlock,Naricon Place 
+1810,22,SB,Main,MidBlock,Naricon Place 
+1810,23,SB,Main,MidBlock,Naricon Place 
+1811,1,WB,Minor,Signal,Tunison Road 
+1811,2,NB,Main,Signal,Tunison Road 
+1811,3,NB,Main,Signal,Tunison Road 
+1811,4,EB,Minor,Signal,Tunison Road 
+1812,1,SB,Main,Signal,Paulus Boulevard 
+1812,2,SB,Main,Signal,Paulus Boulevard 
+1812,3,SB,Main,Signal,Paulus Boulevard 
+1812,4,WB,Minor,Signal,Paulus Boulevard 
+1812,5,WB,Minor,Signal,Paulus Boulevard 
+1812,6,NB,Main,Signal,Paulus Boulevard 
+1812,7,NB,Main,Signal,Paulus Boulevard 
+1812,8,NB,Main,Signal,Paulus Boulevard 
+1812,9,NB,Main,Signal,Paulus Boulevard 
+1812,10,EB,Minor,Signal,Paulus Boulevard 
+1812,11,EB,Minor,Signal,Paulus Boulevard 
+1812,17,NB,Main,MidBlock,Paulus Boulevard 
+1812,18,NB,Main,MidBlock,Paulus Boulevard 
+1812,19,NB,Main,MidBlock,Paulus Boulevard 
+1812,20,NB,Main,MidBlock,Paulus Boulevard 
+1812,21,SB,Main,MidBlock,Paulus Boulevard 
+1812,22,SB,Main,MidBlock,Paulus Boulevard 
+1812,23,SB,Main,MidBlock,Paulus Boulevard 
+1812,24,SB,Main,MidBlock,Paulus Boulevard 
+7300,1,SB,Main,Signal,Jackson Road
+7300,2,SB,Main,Signal,Jackson Road
+7300,3,WB,Minor,Signal,Jackson Road
+7300,4,WB,Minor,Signal,Jackson Road
+7300,5,WB,Minor,Signal,Jackson Road
+7300,6,NB,Main,Signal,Jackson Road
+7300,7,NB,Main,Signal,Jackson Road
+7300,8,NB,Main,Signal,Jackson Road
+7300,9,EB,Minor,Signal,Jackson Road
+7300,10,EB,Minor,Signal,Jackson Road
+7300,11,EB,Minor,Signal,Jackson Road
+7300,12,EB,Minor,Signal,Jackson Road
+7300,17,NB,Main,MidBlock,Jackson Road
+7300,18,NB,Main,MidBlock,Jackson Road
+7300,21,SB,Main,MidBlock,Jackson Road
+7300,22,SB,Main,MidBlock,Jackson Road
+7301,1,SB,Main,Signal,Edgewood Avenue 
+7301,2,SB,Main,Signal,Edgewood Avenue 
+7301,3,SB,Main,Signal,Edgewood Avenue 
+7301,4,EB,Minor,Signal,Edgewood Avenue 
+7301,5,EB,Minor,Signal,Edgewood Avenue 
+7301,6,NB,Main,Signal,Edgewood Avenue 
+7301,7,NB,Main,Signal,Edgewood Avenue 
+7301,8,NB,Main,Signal,Edgewood Avenue 
+7301,9,WB,Minor,Signal,Edgewood Avenue 
+7301,10,WB,Minor,Signal,Edgewood Avenue 
+7301,17,NB,Main,MidBlock,Edgewood Avenue 
+7301,18,NB,Main,MidBlock,Edgewood Avenue 
+7301,21,SB,Main,MidBlock,Edgewood Avenue 
+7301,22,SB,Main,MidBlock,Edgewood Avenue 
+7301,23,SB,Main,MidBlock,Edgewood Avenue 
+7302,1,SB,Main,Signal,Taunton Avenue 
+7302,2,SB,Main,Signal,Taunton Avenue 
+7302,3,SB,Main,Signal,Taunton Avenue 
+7302,4,EB,Minor,Signal,Taunton Avenue 
+7302,5,EB,Minor,Signal,Taunton Avenue 
+7302,6,NB,Main,Signal,Taunton Avenue 
+7302,7,NB,Main,Signal,Taunton Avenue 
+7302,8,NB,Main,Signal,Taunton Avenue 
+7302,9,WB,Minor,Signal,Taunton Avenue 
+7302,10,WB,Minor,Signal,Taunton Avenue 
+7302,17,NB,Main,MidBlock,Taunton Avenue 
+7302,18,NB,Main,MidBlock,Taunton Avenue 
+7302,21,SB,Main,MidBlock,Taunton Avenue 
+7302,22,SB,Main,MidBlock,Taunton Avenue 
+7302,23,SB,Main,MidBlock,Taunton Avenue 
+7303,1,SB,Main,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,2,SB,Main,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,3,SB,Main,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,4,SB,Main,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,5,SB,Main,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,6,EB,Minor,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,7,EB,Minor,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,8,EB,Minor,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,9,NB,Main,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,10,NB,Main,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,11,NB,Main,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,12,NB,Main,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,13,NB,Main,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,14,NB,Main,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,15,WB,Minor,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,16,WB,Minor,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,17,WB,Minor,Signal,Berlin Cross-Keys Road - Walker Avenue 
+7303,18,WB,Minor,MidBlock,Berlin Cross-Keys Road - Walker Avenue 
+7303,19,WB,Minor,MidBlock,Berlin Cross-Keys Road - Walker Avenue 
+7303,20,WB,Minor,MidBlock,Berlin Cross-Keys Road - Walker Avenue 
+7303,21,EB,Minor,MidBlock,Berlin Cross-Keys Road - Walker Avenue 
+7303,22,EB,Minor,MidBlock,Berlin Cross-Keys Road - Walker Avenue 
+7303,23,EB,Minor,MidBlock,Berlin Cross-Keys Road - Walker Avenue 
+7304,1,SB,Main,Signal,Zulker Avenue 
+7304,2,SB,Main,Signal,Zulker Avenue 
+7304,3,EB,Minor,Signal,Zulker Avenue 
+7304,4,NB,Main,Signal,Zulker Avenue 
+7304,5,NB,Main,Signal,Zulker Avenue 
+7304,6,NB,Main,Signal,Zulker Avenue 
+7304,7,WB,Minor,Signal,Zulker Avenue 
+7304,8,WB,Minor,Signal,Zulker Avenue 
+7305,1,SB,Main,Signal,Prospect Avenue 
+7305,2,SB,Main,Signal,Prospect Avenue 
+7305,3,SB,Main,Signal,Prospect Avenue 
+7305,4,SB,Main,Signal,Prospect Avenue 
+7305,5,EB,Minor,Signal,Prospect Avenue 
+7305,6,EB,Minor,Signal,Prospect Avenue 
+7305,7,NB,Main,Signal,Prospect Avenue 
+7305,8,NB,Main,Signal,Prospect Avenue 
+7305,9,NB,Main,Signal,Prospect Avenue 
+7305,10,WB,Minor,Signal,Prospect Avenue 
+7305,17,NB,Main,MidBlock,Prospect Avenue 
+7305,18,NB,Main,MidBlock,Prospect Avenue 
+7305,21,SB,Main,MidBlock,Prospect Avenue 
+7305,22,SB,Main,MidBlock,Prospect Avenue 
+7306,1,SB,Main,Signal,Franklin Avenue 
+7306,2,SB,Main,Signal,Franklin Avenue 
+7306,3,SB,Main,Signal,Franklin Avenue 
+7306,4,SB,Main,Signal,Franklin Avenue 
+7306,5,EB,Minor,Signal,Franklin Avenue 
+7306,6,NB,Main,Signal,Franklin Avenue 
+7306,7,NB,Main,Signal,Franklin Avenue 
+7306,8,NB,Main,Signal,Franklin Avenue 
+7306,17,NB,Main,MidBlock,Franklin Avenue 
+7306,18,NB,Main,MidBlock,Franklin Avenue 
+7306,21,SB,Main,MidBlock,Franklin Avenue 
+7306,22,SB,Main,MidBlock,Franklin Avenue 
+7307,1,SB,Main,Signal,Cooper Avenue
+7307,2,SB,Main,Signal,Cooper Avenue
+7307,3,SB,Main,Signal,Cooper Avenue
+7307,4,EB,Minor,Signal,Cooper Avenue
+7307,5,EB,Minor,Signal,Cooper Avenue
+7307,6,NB,Main,Signal,Cooper Avenue
+7307,7,NB,Main,Signal,Cooper Avenue
+7307,8,NB,Main,Signal,Cooper Avenue
+7307,9,WB,Minor,Signal,Cooper Avenue
+7307,10,WB,Minor,Signal,Cooper Avenue
+7307,17,NB,Main,MidBlock,Cooper Avenue
+7307,18,NB,Main,MidBlock,Cooper Avenue
+7307,21,SB,Main,MidBlock,Cooper Avenue
+7307,22,SB,Main,MidBlock,Cooper Avenue
+7308,1,SB,Main,Signal,Lakeside Avenue - Signal Hill Drive 
+7308,2,SB,Main,Signal,Lakeside Avenue - Signal Hill Drive 
+7308,3,SB,Main,Signal,Lakeside Avenue - Signal Hill Drive 
+7308,4,SB,Main,Signal,Lakeside Avenue - Signal Hill Drive 
+7308,5,EB,Minor,Signal,Lakeside Avenue - Signal Hill Drive 
+7308,6,EB,Minor,Signal,Lakeside Avenue - Signal Hill Drive 
+7308,7,NB,Main,Signal,Lakeside Avenue - Signal Hill Drive 
+7308,8,NB,Main,Signal,Lakeside Avenue - Signal Hill Drive 
+7308,9,NB,Main,Signal,Lakeside Avenue - Signal Hill Drive 
+7308,10,NB,Main,Signal,Lakeside Avenue - Signal Hill Drive 
+7308,11,WB,Minor,Signal,Lakeside Avenue - Signal Hill Drive 
+7308,12,WB,Minor,Signal,Lakeside Avenue - Signal Hill Drive 
+7308,17,NB,Main,MidBlock,Lakeside Avenue - Signal Hill Drive 
+7308,18,NB,Main,MidBlock,Lakeside Avenue - Signal Hill Drive 
+7308,21,SB,Main,MidBlock,Lakeside Avenue - Signal Hill Drive 
+7308,22,SB,Main,MidBlock,Lakeside Avenue - Signal Hill Drive 
+7308,23,SB,Main,MidBlock,Lakeside Avenue - Signal Hill Drive 
+7309,1,SB,Main,Signal,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,2,SB,Main,Signal,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,3,SB,Main,Signal,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,4,EB,Minor,Signal,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,5,EB,Minor,Signal,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,6,EB,Minor,Signal,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,7,EB,Minor,Signal,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,8,NB,Main,Signal,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,9,NB,Main,Signal,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,10,NB,Main,Signal,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,11,WB,Minor,Signal,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,12,WB,Minor,Signal,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,13,WB,Minor,Signal,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,17,NB,Main,MidBlock,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,18,NB,Main,MidBlock,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7309,19,NB,Main,MidBlock,Bowman Drive (formerly Campus Drive) - Cedar Hill Road 
+7310,1,SB,Main,Signal,William Feather Drive 
+7310,2,SB,Main,Signal,William Feather Drive 
+7310,3,SB,Main,Signal,William Feather Drive 
+7310,4,NB,Main,Signal,William Feather Drive 
+7310,5,NB,Main,Signal,William Feather Drive 
+7310,6,WB,Minor,Signal,William Feather Drive 
+7310,17,NB,Main,MidBlock,William Feather Drive 
+7310,18,NB,Main,MidBlock,William Feather Drive 
+7310,21,SB,Main,MidBlock,William Feather Drive 
+7310,22,SB,Main,MidBlock,William Feather Drive 
+7311,1,SB,Main,Signal,Dutchtown Road - Spur 
+7311,2,SB,Main,Signal,Dutchtown Road - Spur 
+7311,3,SB,Main,Signal,Dutchtown Road - Spur 
+7311,4,EB,Minor,Signal,Dutchtown Road - Spur 
+7311,5,EB,Minor,Signal,Dutchtown Road - Spur 
+7311,6,SB,Main,MidBlock,Dutchtown Road - Spur 
+7311,7,SB,Main,MidBlock,Dutchtown Road - Spur 
+7311,8,NB,Main,Signal,Dutchtown Road - Spur 
+7311,9,NB,Main,Signal,Dutchtown Road - Spur 
+7311,10,NB,Main,Signal,Dutchtown Road - Spur 
+7311,17,NB,Main,MidBlock,Dutchtown Road - Spur 
+7311,18,NB,Main,MidBlock,Dutchtown Road - Spur 
+7311,21,SB,Main,MidBlock,Dutchtown Road - Spur 
+7311,22,SB,Main,MidBlock,Dutchtown Road - Spur 
+7312,1,SB,Main,Signal,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,2,SB,Main,Signal,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,3,SB,Main,Signal,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,4,SB,Main,Signal,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,5,EB,Minor,Signal,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,6,EB,Minor,Signal,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,7,EB,Minor,Signal,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,8,NB,Main,Signal,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,9,NB,Main,Signal,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,10,NB,Main,Signal,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,11,NB,Main,Signal,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,12,WB,Minor,Signal,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,17,NB,Main,MidBlock,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,18,NB,Main,MidBlock,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,21,SB,Main,MidBlock,Haddonfield-Kresson Road - Braddock Mill Road 
+7312,22,SB,Main,MidBlock,Haddonfield-Kresson Road - Braddock Mill Road 
+7314,1,SB,Main,Signal,Ardsley Drive - Target Store 
+7314,2,SB,Main,Signal,Ardsley Drive - Target Store 
+7314,3,SB,Main,Signal,Ardsley Drive - Target Store 
+7314,4,SB,Main,Signal,Ardsley Drive - Target Store 
+7314,5,EB,Minor,Signal,Ardsley Drive - Target Store 
+7314,6,EB,Minor,Signal,Ardsley Drive - Target Store 
+7314,7,NB,Main,Signal,Ardsley Drive - Target Store 
+7314,8,NB,Main,Signal,Ardsley Drive - Target Store 
+7314,9,NB,Main,Signal,Ardsley Drive - Target Store 
+7314,10,NB,Main,Signal,Ardsley Drive - Target Store 
+7314,11,WB,Minor,Signal,Ardsley Drive - Target Store 
+7314,12,WB,Minor,Signal,Ardsley Drive - Target Store 
+7314,13,WB,Minor,Signal,Ardsley Drive - Target Store 
+7314,17,NB,Main,MidBlock,Ardsley Drive - Target Store 
+7314,18,NB,Main,MidBlock,Ardsley Drive - Target Store 
+7314,21,SB,Main,MidBlock,Ardsley Drive - Target Store 
+7314,22,SB,Main,MidBlock,Ardsley Drive - Target Store 
+7315,1,SB,Main,Signal,Evesham Road - Marlton Parkway 
+7315,2,SB,Main,Signal,Evesham Road - Marlton Parkway 
+7315,3,SB,Main,Signal,Evesham Road - Marlton Parkway 
+7315,4,EB,Minor,Signal,Evesham Road - Marlton Parkway 
+7315,5,EB,Minor,Signal,Evesham Road - Marlton Parkway 
+7315,6,EB,Minor,Signal,Evesham Road - Marlton Parkway 
+7315,7,NB,Main,Signal,Evesham Road - Marlton Parkway 
+7315,8,NB,Main,Signal,Evesham Road - Marlton Parkway 
+7315,9,NB,Main,Signal,Evesham Road - Marlton Parkway 
+7315,10,NB,Main,Signal,Evesham Road - Marlton Parkway 
+7315,11,WB,Minor,Signal,Evesham Road - Marlton Parkway 
+7315,12,WB,Minor,Signal,Evesham Road - Marlton Parkway 
+7315,13,WB,Minor,Signal,Evesham Road - Marlton Parkway 
+7315,17,NB,Main,MidBlock,Evesham Road - Marlton Parkway 
+7315,18,NB,Main,MidBlock,Evesham Road - Marlton Parkway 
+7315,21,SB,Main,MidBlock,Evesham Road - Marlton Parkway 
+7315,22,SB,Main,MidBlock,Evesham Road - Marlton Parkway 
+7316,1,SB,Main,Signal,Brick Road 
+7316,2,SB,Main,Signal,Brick Road 
+7316,3,SB,Main,Signal,Brick Road 
+7316,4,EB,Minor,Signal,Brick Road 
+7316,5,EB,Minor,Signal,Brick Road 
+7316,6,EB,Minor,Signal,Brick Road 
+7316,7,NB,Main,Signal,Brick Road 
+7316,8,NB,Main,Signal,Brick Road 
+7316,9,NB,Main,Signal,Brick Road 
+7316,10,WB,Minor,Signal,Brick Road 
+7316,11,WB,Minor,Signal,Brick Road 
+7316,12,WB,Minor,Signal,Brick Road 
+7316,17,NB,Main,MidBlock,Brick Road 
+7316,18,NB,Main,MidBlock,Brick Road 
+7317,1,SB,Main,Signal,Centre Boulevard - South Maple Avenue 
+7317,2,SB,Main,Signal,Centre Boulevard - South Maple Avenue 
+7317,3,SB,Main,Signal,Centre Boulevard - South Maple Avenue 
+7317,4,EB,Minor,Signal,Centre Boulevard - South Maple Avenue 
+7317,5,EB,Minor,Signal,Centre Boulevard - South Maple Avenue 
+7317,6,EB,Minor,Signal,Centre Boulevard - South Maple Avenue 
+7317,7,NB,Main,Signal,Centre Boulevard - South Maple Avenue 
+7317,8,NB,Main,Signal,Centre Boulevard - South Maple Avenue 
+7317,9,WB,Minor,Signal,Centre Boulevard - South Maple Avenue 
+7317,10,WB,Minor,Signal,Centre Boulevard - South Maple Avenue 
+7317,11,WB,Minor,Signal,Centre Boulevard - South Maple Avenue 
+7317,12,WB,Minor,Signal,Centre Boulevard - South Maple Avenue 
+7317,21,SB,Main,MidBlock,Centre Boulevard - South Maple Avenue 
+7317,22,SB,Main,MidBlock,Centre Boulevard - South Maple Avenue 
+7318,1,SB,Main,Signal,Lincoln Drive (South) 
+7318,2,SB,Main,Signal,Lincoln Drive (South) 
+7318,3,EB,Minor,Signal,Lincoln Drive (South) 
+7318,4,EB,Minor,Signal,Lincoln Drive (South) 
+7318,5,EB,Minor,Signal,Lincoln Drive (South) 
+7318,6,NB,Main,Signal,Lincoln Drive (South) 
+7318,7,NB,Main,Signal,Lincoln Drive (South) 
+7318,8,WB,Minor,Signal,Lincoln Drive (South) 
+7318,9,WB,Minor,Signal,Lincoln Drive (South) 
+7318,10,WB,Minor,Signal,Lincoln Drive (South) 
+7318,11,WB,Minor,Signal,Lincoln Drive (South) 
+7318,17,NB,Main,MidBlock,Lincoln Drive (South) 
+7318,18,NB,Main,MidBlock,Lincoln Drive (South) 
+7318,21,SB,Main,MidBlock,Lincoln Drive (South) 
+7318,22,SB,Main,MidBlock,Lincoln Drive (South) 
+7319,1,SB,Main,Signal,Greentree Road 
+7319,2,SB,Main,Signal,Greentree Road 
+7319,3,EB,Minor,Signal,Greentree Road 
+7319,4,EB,Minor,Signal,Greentree Road 
+7319,5,EB,Minor,Signal,Greentree Road 
+7319,6,NB,Main,Signal,Greentree Road 
+7319,7,NB,Main,Signal,Greentree Road 
+7319,8,NB,Main,Signal,Greentree Road 
+7319,9,WB,Minor,Signal,Greentree Road 
+7319,10,WB,Minor,Signal,Greentree Road 
+7319,11,WB,Minor,Signal,Greentree Road 
+7319,12,WB,Minor,Signal,Greentree Road 
+7319,21,SB,Minor,MidBlock,Greentree Road 
+7319,22,SB,Minor,MidBlock,Greentree Road 
+7320,1,SB,Main,Signal,Lincoln Drive (North) 
+7320,2,SB,Main,Signal,Lincoln Drive (North) 
+7320,3,EB,Minor,Signal,Lincoln Drive (North) 
+7320,4,EB,Minor,Signal,Lincoln Drive (North) 
+7320,5,EB,Minor,Signal,Lincoln Drive (North) 
+7320,6,NB,Main,Signal,Lincoln Drive (North) 
+7320,7,NB,Main,Signal,Lincoln Drive (North) 
+7320,8,WB,Minor,Signal,Lincoln Drive (North) 
+7320,9,WB,Minor,Signal,Lincoln Drive (North) 
+7320,10,WB,Minor,Signal,Lincoln Drive (North) 
+7320,17,NB,Main,MidBlock,Lincoln Drive (North) 
+7320,18,NB,Main,MidBlock,Lincoln Drive (North) 
+7320,21,SB,Main,MidBlock,Lincoln Drive (North) 
+7320,22,SB,Main,MidBlock,Lincoln Drive (North) 
+7320,23,SB,Main,MidBlock,Lincoln Drive (North) 
+7321,1,SB,Main,Signal,Atrium Way 
+7321,2,SB,Main,Signal,Atrium Way 
+7321,3,SB,Main,Signal,Atrium Way 
+7321,4,SB,Main,Signal,Atrium Way 
+7321,5,EB,Minor,Signal,Atrium Way 
+7321,6,EB,Minor,Signal,Atrium Way 
+7321,7,EB,Minor,Signal,Atrium Way 
+7321,8,NB,Main,Signal,Atrium Way 
+7321,9,NB,Main,Signal,Atrium Way 
+7321,10,NB,Main,Signal,Atrium Way 
+7321,17,NB,Main,MidBlock,Atrium Way 
+7321,18,NB,Main,MidBlock,Atrium Way 
+7321,21,SB,Main,MidBlock,Atrium Way 
+7321,22,SB,Main,MidBlock,Atrium Way 
+7322,1,SB,Main,Signal,Church Road 
+7322,2,SB,Main,Signal,Church Road 
+7322,3,SB,Main,Signal,Church Road 
+7322,4,SB,Main,Signal,Church Road 
+7322,5,EB,Minor,Signal,Church Road 
+7322,6,EB,Minor,Signal,Church Road 
+7322,7,NB,Main,MidBlock,Church Road 
+7322,8,NB,Main,MidBlock,Church Road 
+7322,9,NB,Main,MidBlock,Church Road 
+7322,10,NB,Main,MidBlock,Church Road 
+7322,11,WB,Minor,Signal,Church Road 
+7322,12,WB,Minor,Signal,Church Road 
+7322,13,SB,Main,MidBlock,Church Road 
+7322,14,NB,Main,Signal,Church Road 
+7322,15,WB,Minor,Signal,Church Road 
+7322,16,WB,Minor,Signal,Church Road 
+7322,17,NB,Main,MidBlock,Church Road 
+7322,18,NB,Main,MidBlock,Church Road 
+7323,1,SB,Main,Signal,Rogers Walk (formerly Howard Boulevard) 
+7323,2,SB,Main,Signal,Rogers Walk (formerly Howard Boulevard) 
+7323,3,SB,Main,Signal,Rogers Walk (formerly Howard Boulevard) 
+7323,4,EB,Minor,Signal,Rogers Walk (formerly Howard Boulevard) 
+7323,5,NB,Main,Signal,Rogers Walk (formerly Howard Boulevard) 
+7323,6,NB,Main,Signal,Rogers Walk (formerly Howard Boulevard) 
+7323,7,NB,Main,Signal,Rogers Walk (formerly Howard Boulevard) 
+7323,8,WB,Minor,Signal,Rogers Walk (formerly Howard Boulevard) 
+7323,9,WB,Minor,Signal,Rogers Walk (formerly Howard Boulevard) 
+7323,10,WB,Minor,Signal,Rogers Walk (formerly Howard Boulevard) 
+7324,1,SB,Main,Signal,Fellowship Road 
+7324,2,SB,Main,Signal,Fellowship Road 
+7324,3,SB,Main,Signal,Fellowship Road 
+7324,4,SB,Main,Signal,Fellowship Road 
+7324,5,EB,Minor,Signal,Fellowship Road 
+7324,6,EB,Minor,Signal,Fellowship Road 
+7324,7,EB,Minor,Signal,Fellowship Road 
+7324,8,EB,Minor,Signal,Fellowship Road 
+7324,9,EB,Minor,Signal,Fellowship Road 
+7324,10,NB,Main,Signal,Fellowship Road 
+7324,11,NB,Main,Signal,Fellowship Road 
+7324,12,NB,Main,Signal,Fellowship Road 
+7324,13,WB,Minor,Signal,Fellowship Road 
+7324,14,WB,Minor,Signal,Fellowship Road 
+7324,15,WB,Minor,Signal,Fellowship Road 
+7324,16,WB,Minor,Signal,Fellowship Road 
+7324,21,SB,Main,MidBlock,Fellowship Road 
+7324,22,SB,Main,MidBlock,Fellowship Road 
+7324,23,SB,Main,MidBlock,Fellowship Road 
+7325,1,SB,Main,Signal,Waverly Avenue - Willow Avenue 
+7325,2,SB,Main,Signal,Waverly Avenue - Willow Avenue 
+7325,3,SB,Main,Signal,Waverly Avenue - Willow Avenue 
+7325,4,EB,Minor,Signal,Waverly Avenue - Willow Avenue 
+7325,5,EB,Minor,Signal,Waverly Avenue - Willow Avenue 
+7325,6,NB,Main,Signal,Waverly Avenue - Willow Avenue 
+7325,7,NB,Main,Signal,Waverly Avenue - Willow Avenue 
+7325,8,NB,Main,Signal,Waverly Avenue - Willow Avenue 
+7325,9,NB,Main,Signal,Waverly Avenue - Willow Avenue 
+7325,10,WB,Minor,Signal,Waverly Avenue - Willow Avenue 
+7325,11,WB,Minor,Signal,Waverly Avenue - Willow Avenue 
+7325,12,WB,Minor,Signal,Waverly Avenue - Willow Avenue 
+7325,17,NB,Main,MidBlock,Waverly Avenue - Willow Avenue 
+7325,18,NB,Main,MidBlock,Waverly Avenue - Willow Avenue 
+7325,19,NB,Main,MidBlock,Waverly Avenue - Willow Avenue 
+7325,21,SB,Main,Signal,Waverly Avenue - Willow Avenue 
+7325,22,SB,Main,Signal,Waverly Avenue - Willow Avenue 
+7325,23,SB,Main,Signal,Waverly Avenue - Willow Avenue 
+7326,1,SB,Main,Signal,Fox Meadow drive - Fellowship Road 
+7326,2,SB,Main,Signal,Fox Meadow drive - Fellowship Road 
+7326,3,SB,Main,Signal,Fox Meadow drive - Fellowship Road 
+7326,4,EB,Minor,Signal,Fox Meadow drive - Fellowship Road 
+7326,5,EB,Minor,Signal,Fox Meadow drive - Fellowship Road 
+7326,6,EB,Minor,Signal,Fox Meadow drive - Fellowship Road 
+7326,7,NB,Main,Signal,Fox Meadow drive - Fellowship Road 
+7326,8,NB,Main,Signal,Fox Meadow drive - Fellowship Road 
+7326,9,NB,Main,Signal,Fox Meadow drive - Fellowship Road 
+7326,10,WB,Minor,Signal,Fox Meadow drive - Fellowship Road 
+7326,11,WB,Minor,Signal,Fox Meadow drive - Fellowship Road 
+7326,12,WB,Minor,Signal,Fox Meadow drive - Fellowship Road 
+7326,17,NB,Main,MidBlock,Fox Meadow drive - Fellowship Road 
+7326,18,NB,Main,MidBlock,Fox Meadow drive - Fellowship Road 
+7326,21,SB,Main,MidBlock,Fox Meadow drive - Fellowship Road 
+7326,22,SB,Main,MidBlock,Fox Meadow drive - Fellowship Road 
+7327,1,SB,Main,Signal,Stiles Avenue - Princeton Avenue 
+7327,2,SB,Main,Signal,Stiles Avenue - Princeton Avenue 
+7327,3,EB,Minor,Signal,Stiles Avenue - Princeton Avenue 
+7327,4,NB,Main,Signal,Stiles Avenue - Princeton Avenue 
+7327,5,NB,Main,Signal,Stiles Avenue - Princeton Avenue 
+7327,6,WB,Minor,Signal,Stiles Avenue - Princeton Avenue 
+7327,17,NB,Main,MidBlock,Stiles Avenue - Princeton Avenue 
+7327,18,NB,Main,MidBlock,Stiles Avenue - Princeton Avenue 
+7327,21,SB,Main,MidBlock,Stiles Avenue - Princeton Avenue 
+7327,22,SB,Main,MidBlock,Stiles Avenue - Princeton Avenue 
+7328,1,SB,Main,Signal,High Street 
+7328,2,SB,Main,Signal,High Street 
+7328,3,EB,Minor,Signal,High Street 
+7328,4,NB,Main,Signal,High Street 
+7328,5,NB,Main,Signal,High Street 
+7328,6,NB,Main,Signal,High Street 
+7328,7,WB,Minor,Signal,High Street 
+7328,17,NB,Main,MidBlock,High Street 
+7328,18,NB,Main,MidBlock,High Street 
+7328,21,SB,Main,MidBlock,High Street 
+7328,22,SB,Main,MidBlock,High Street 
+7329,1,SB,Main,Signal,Fork Landing Road 
+7329,2,SB,Main,Signal,Fork Landing Road 
+7329,3,SB,Main,Signal,Fork Landing Road 
+7329,4,EB,Minor,Signal,Fork Landing Road 
+7329,5,EB,Minor,Signal,Fork Landing Road 
+7329,6,NB,Main,Signal,Fork Landing Road 
+7329,7,NB,Main,Signal,Fork Landing Road 
+7329,8,WB,Minor,Signal,Fork Landing Road 
+7329,9,WB,Minor,Signal,Fork Landing Road 
+7329,17,NB,Main,MidBlock,Fork Landing Road 
+7329,18,NB,Main,MidBlock,Fork Landing Road 
+7329,21,SB,Main,MidBlock,Fork Landing Road 
+7329,22,SB,Main,MidBlock,Fork Landing Road 
+7329,23,SB,Main,MidBlock,Fork Landing Road 
+13080,1,SB,Main,Signal,Mercer Street
+13080,2,SB,Main,Signal,Mercer Street
+13080,3,SB,Main,Signal,Mercer Street
+13080,4,SB,Main,Signal,Mercer Street
+13080,5,NB,Main,Signal,Mercer Street
+13080,6,NB,Main,Signal,Mercer Street
+13080,7,NB,Main,Signal,Mercer Street
+13080,8,NB,Main,Signal,Mercer Street
+13080,9,WB,Minor,Signal,Mercer Street
+13080,10,WB,Minor,Signal,Mercer Street
+13081,1,SB,Main,Signal,Hickory Corner Road 
+13081,2,SB,Main,Signal,Hickory Corner Road 
+13081,3,SB,Main,Signal,Hickory Corner Road 
+13081,4,SB,Main,Signal,Hickory Corner Road 
+13081,5,EB,Minor,Signal,Hickory Corner Road 
+13081,6,EB,Minor,Signal,Hickory Corner Road 
+13081,7,NB,Main,Signal,Hickory Corner Road 
+13081,8,NB,Main,Signal,Hickory Corner Road 
+13081,9,NB,Main,Signal,Hickory Corner Road 
+13081,10,NB,Main,Signal,Hickory Corner Road 
+13081,11,NB,Main,Signal,Hickory Corner Road 
+13081,12,WB,Minor,Signal,Hickory Corner Road 
+13081,13,WB,Minor,Signal,Hickory Corner Road 
+13082,1,SB,Main,Signal,Dutchneck Road 
+13082,2,SB,Main,Signal,Dutchneck Road 
+13082,3,SB,Main,Signal,Dutchneck Road 
+13082,4,SB,Main,Signal,Dutchneck Road 
+13082,5,EB,Minor,Signal,Dutchneck Road 
+13082,6,EB,Minor,Signal,Dutchneck Road 
+13082,7,EB,Minor,Signal,Dutchneck Road 
+13082,8,NB,Main,Signal,Dutchneck Road 
+13082,9,NB,Main,Signal,Dutchneck Road 
+13082,10,NB,Main,Signal,Dutchneck Road 
+13082,11,WB,Minor,Signal,Dutchneck Road 
+13082,12,WB,Minor,Signal,Dutchneck Road 
+13082,13,WB,Minor,Signal,Dutchneck Road 
+13083,1,SB,Main,Signal,Princeton-Hightstown Road - Stockton Street
+13083,2,SB,Main,Signal,Princeton-Hightstown Road - Stockton Street
+13083,3,SB,Main,Signal,Princeton-Hightstown Road - Stockton Street
+13083,4,SB,Main,Signal,Princeton-Hightstown Road - Stockton Street
+13083,5,EB,Minor,Signal,Princeton-Hightstown Road - Stockton Street
+13083,6,EB,Minor,Signal,Princeton-Hightstown Road - Stockton Street
+13083,7,EB,Minor,Signal,Princeton-Hightstown Road - Stockton Street
+13083,8,NB,Main,Signal,Princeton-Hightstown Road - Stockton Street
+13083,9,NB,Main,Signal,Princeton-Hightstown Road - Stockton Street
+13083,10,NB,Main,Signal,Princeton-Hightstown Road - Stockton Street
+13083,11,NB,Main,Signal,Princeton-Hightstown Road - Stockton Street
+13083,12,WB,Minor,Signal,Princeton-Hightstown Road - Stockton Street
+13083,13,WB,Minor,Signal,Princeton-Hightstown Road - Stockton Street
+13084,1,SB,Main,Signal,East Windsor Shopping Center - Americana Diner 
+13084,2,SB,Main,Signal,East Windsor Shopping Center - Americana Diner 
+13084,3,SB,Main,Signal,East Windsor Shopping Center - Americana Diner 
+13084,4,EB,Minor,Signal,East Windsor Shopping Center - Americana Diner 
+13084,5,NB,Main,Signal,East Windsor Shopping Center - Americana Diner 
+13084,6,NB,Main,Signal,East Windsor Shopping Center - Americana Diner 
+13084,7,NB,Main,Signal,East Windsor Shopping Center - Americana Diner 
+13084,8,WB,Minor,Signal,East Windsor Shopping Center - Americana Diner 
+13085,1,SB,Main,Signal,Town Center Road - Rocky Brook Road 
+13085,2,SB,Main,Signal,Town Center Road - Rocky Brook Road 
+13085,3,SB,Main,Signal,Town Center Road - Rocky Brook Road 
+13085,4,EB,Minor,Signal,Town Center Road - Rocky Brook Road 
+13085,5,NB,Main,Signal,Town Center Road - Rocky Brook Road 
+13085,6,NB,Main,Signal,Town Center Road - Rocky Brook Road 
+13085,7,NB,Main,Signal,Town Center Road - Rocky Brook Road 
+13085,8,WB,Minor,Signal,Town Center Road - Rocky Brook Road 
+13085,9,WB,Minor,Signal,Town Center Road - Rocky Brook Road 
+13085,10,WB,Minor,Signal,Town Center Road - Rocky Brook Road 
+13085,17,SB,Main,MidBlock,Town Center Road - Rocky Brook Road 
+13085,18,SB,Main,MidBlock,Town Center Road - Rocky Brook Road 
+13086,1,SB,Main,Signal,Old Cranbury Road 
+13086,2,SB,Main,Signal,Old Cranbury Road 
+13086,3,SB,Main,Signal,Old Cranbury Road 
+13086,4,EB,Minor,Signal,Old Cranbury Road 
+13086,5,NB,Main,Signal,Old Cranbury Road 
+13086,6,NB,Main,Signal,Old Cranbury Road 
+13086,7,NB,Main,Signal,Old Cranbury Road 
+13086,8,WB,Minor,Signal,Old Cranbury Road 
+13087,1,SB,Main,Signal,Old Trenton Road
+13087,2,SB,Main,Signal,Old Trenton Road
+13087,3,SB,Main,Signal,Old Trenton Road
+13087,4,EB,Minor,Signal,Old Trenton Road
+13087,5,EB,Minor,Signal,Old Trenton Road
+13087,6,EB,Minor,Signal,Old Trenton Road
+13087,7,NB,Main,Signal,Old Trenton Road
+13087,8,NB,Main,Signal,Old Trenton Road
+13087,9,NB,Main,Signal,Old Trenton Road
+13088,1,SB,Main,Signal,Cranbury-Station Road
+13088,2,SB,Main,Signal,Cranbury-Station Road
+13088,3,SB,Main,Signal,Cranbury-Station Road
+13088,4,SB,Main,Signal,Cranbury-Station Road
+13088,5,EB,Minor,Signal,Cranbury-Station Road
+13088,6,EB,Minor,Signal,Cranbury-Station Road
+13088,7,NB,Main,Signal,Cranbury-Station Road
+13088,8,NB,Main,Signal,Cranbury-Station Road
+13088,9,NB,Main,Signal,Cranbury-Station Road
+13088,10,NB,Main,Signal,Cranbury-Station Road
+13088,11,WB,Minor,Signal,Cranbury-Station Road
+13088,12,WB,Minor,Signal,Cranbury-Station Road
+13088,13,WB,Minor,Signal,Cranbury-Station Road
+13089,1,SB,Main,Signal,Half Acre Road 
+13089,2,SB,Main,Signal,Half Acre Road 
+13089,3,SB,Main,Signal,Half Acre Road 
+13089,4,EB,Minor,Signal,Half Acre Road 
+13089,5,EB,Minor,Signal,Half Acre Road 
+13089,6,NB,Main,Signal,Half Acre Road 
+13089,7,NB,Main,Signal,Half Acre Road 
+13089,8,NB,Main,Signal,Half Acre Road 
+13089,9,WB,Minor,Signal,Half Acre Road 
+13089,10,WB,Minor,Signal,Half Acre Road 
+13089,11,WB,Minor,Signal,Half Acre Road 
+13090,1,SB,Main,Signal,South River Road 
+13090,2,SB,Main,Signal,South River Road 
+13090,3,NB,Main,Signal,South River Road 
+13090,4,NB,Main,Signal,South River Road 
+13090,5,WB,Minor,Signal,South River Road 
+13090,6,WB,Minor,Signal,South River Road 
+13091,1,SB,Main,Signal,Dey Road 
+13091,2,SB,Main,Signal,Dey Road 
+13091,3,SB,Main,Signal,Dey Road 
+13091,4,EB,Minor,Signal,Dey Road 
+13091,5,EB,Minor,Signal,Dey Road 
+13091,6,EB,Minor,Signal,Dey Road 
+13091,7,NB,Main,Signal,Dey Road 
+13091,8,NB,Main,Signal,Dey Road 
+13091,9,NB,Main,Signal,Dey Road 
+13091,10,NB,Main,Signal,Dey Road 
+13091,11,WB,Minor,Signal,Dey Road 
+13091,12,WB,Minor,Signal,Dey Road 
+13091,13,WB,Minor,Signal,Dey Road 
+13092,1,SB,Main,Signal,Broadway Road 
+13092,2,SB,Main,Signal,Broadway Road 
+13092,3,EB,Minor,Signal,Broadway Road 
+13092,4,NB,Main,Signal,Broadway Road 
+13092,5,NB,Main,Signal,Broadway Road 
+13092,6,NB,Main,Signal,Broadway Road 
+13093,1,SB,Main,Signal,Route NJ-32 East - NJTPK Park & Ride 
+13093,2,SB,Main,Signal,Route NJ-32 East - NJTPK Park & Ride 
+13093,4,EB,Minor,Signal,Route NJ-32 East - NJTPK Park & Ride 
+13093,5,EB,Minor,Signal,Route NJ-32 East - NJTPK Park & Ride 
+13093,6,EB,Minor,Signal,Route NJ-32 East - NJTPK Park & Ride 
+13093,7,NB,Main,Signal,Route NJ-32 East - NJTPK Park & Ride 
+13093,8,NB,Main,Signal,Route NJ-32 East - NJTPK Park & Ride 
+13093,9,NB,Main,Signal,Route NJ-32 East - NJTPK Park & Ride 
+13093,21,NB,Main,MidBlock,Route NJ-32 East - NJTPK Park & Ride 
+13093,22,NB,Main,MidBlock,Route NJ-32 East - NJTPK Park & Ride 
+13094,1,SB,Main,Signal,Route NJ-32 West - Friendship Road 
+13094,2,SB,Main,Signal,Route NJ-32 West - Friendship Road 
+13094,3,SB,Main,Signal,Route NJ-32 West - Friendship Road 
+13094,4,EB,Minor,Signal,Route NJ-32 West - Friendship Road 
+13094,5,NB,Main,Signal,Route NJ-32 West - Friendship Road 
+13094,6,NB,Main,Signal,Route NJ-32 West - Friendship Road 
+13094,7,NB,Main,Signal,Route NJ-32 West - Friendship Road 
+13094,8,WB,Minor,Signal,Route NJ-32 West - Friendship Road 
+13094,9,WB,Minor,Signal,Route NJ-32 West - Friendship Road 
+13095,1,SB,Main,Signal,Herrod Boulevard - Commerce Drive 
+13095,2,SB,Main,Signal,Herrod Boulevard - Commerce Drive 
+13095,3,EB,Minor,Signal,Herrod Boulevard - Commerce Drive 
+13095,4,EB,Minor,Signal,Herrod Boulevard - Commerce Drive 
+13095,5,EB,Minor,Signal,Herrod Boulevard - Commerce Drive 
+13095,6,NB,Main,Signal,Herrod Boulevard - Commerce Drive 
+13095,7,NB,Main,Signal,Herrod Boulevard - Commerce Drive 
+13095,8,WB,Minor,Signal,Herrod Boulevard - Commerce Drive 
+13095,9,WB,Minor,Signal,Herrod Boulevard - Commerce Drive 
+13095,10,WB,Minor,Signal,Herrod Boulevard - Commerce Drive 
+13096,1,SB,Main,Signal,Cranbury Road - South River Road
+13096,2,SB,Main,Signal,Cranbury Road - South River Road
+13096,3,SB,Main,Signal,Cranbury Road - South River Road
+13096,4,EB,Minor,Signal,Cranbury Road - South River Road
+13096,5,EB,Minor,Signal,Cranbury Road - South River Road
+13096,6,EB,Minor,Signal,Cranbury Road - South River Road
+13096,7,NB,Main,Signal,Cranbury Road - South River Road
+13096,8,NB,Main,Signal,Cranbury Road - South River Road
+13096,9,NB,Main,Signal,Cranbury Road - South River Road
+13096,10,WB,Minor,Signal,Cranbury Road - South River Road
+13096,11,WB,Minor,Signal,Cranbury Road - South River Road
+13096,12,WB,Minor,Signal,Cranbury Road - South River Road
+13096,13,SB,Main,MidBlock,Cranbury Road - South River Road
+10012,1,SB,Main,Signal,Franklin Corner Road - Bakers Basin Road 
+10012,2,SB,Main,Signal,Franklin Corner Road - Bakers Basin Road 
+10012,3,EB,Minor,Signal,Franklin Corner Road - Bakers Basin Road 
+10012,4,EB,Minor,Signal,Franklin Corner Road - Bakers Basin Road 
+10012,5,EB,Minor,Signal,Franklin Corner Road - Bakers Basin Road 
+10012,6,NB,Main,Signal,Franklin Corner Road - Bakers Basin Road 
+10012,7,NB,Main,Signal,Franklin Corner Road - Bakers Basin Road 
+10012,8,NB,Main,Signal,Franklin Corner Road - Bakers Basin Road 
+10012,9,WB,Minor,Signal,Franklin Corner Road - Bakers Basin Road 
+10012,10,WB,Minor,Signal,Franklin Corner Road - Bakers Basin Road 
+10012,11,WB,Minor,Signal,Franklin Corner Road - Bakers Basin Road 
+10012,17,SB,Main,MidBlock,Franklin Corner Road - Bakers Basin Road 
+10012,18,SB,Main,MidBlock,Franklin Corner Road - Bakers Basin Road 
+10012,21,NB,Main,MidBlock,Franklin Corner Road - Bakers Basin Road 
+10012,22,NB,Main,MidBlock,Franklin Corner Road - Bakers Basin Road 
+10012,23,NB,Main,MidBlock,Franklin Corner Road - Bakers Basin Road 
+10015,1,SB,Main,Signal,Carnegie Center Boulevard 
+10015,2,SB,Main,Signal,Carnegie Center Boulevard 
+10015,3,SB,Main,Signal,Carnegie Center Boulevard 
+10015,4,EB,Minor,Signal,Carnegie Center Boulevard 
+10015,5,EB,Minor,Signal,Carnegie Center Boulevard 
+10015,6,EB,Minor,Signal,Carnegie Center Boulevard 
+10015,11,WB,Minor,Signal,Carnegie Center Boulevard 
+10015,12,WB,Minor,Signal,Carnegie Center Boulevard 
+10015,13,WB,Minor,Signal,Carnegie Center Boulevard 
+10015,17,SB,Main,MidBlock,Carnegie Center Boulevard 
+10015,18,SB,Main,MidBlock,Carnegie Center Boulevard 
+10015,19,SB,Main,MidBlock,Carnegie Center Boulevard 
+10015,21,NB,Main,MidBlock,Carnegie Center Boulevard 
+10015,22,NB,Main,MidBlock,Carnegie Center Boulevard 
+10015,23,NB,Main,MidBlock,Carnegie Center Boulevard 
+10015,24,NB,Main,MidBlock,Carnegie Center Boulevard 
+10017,1,SB,Main,Signal,Washington Road
+10017,2,SB,Main,Signal,Washington Road
+10017,3,SB,Main,Signal,Washington Road
+10017,4,EB,Minor,MidBlock,Washington Road
+10017,5,EB,Minor,Signal,Washington Road
+10017,6,EB,Minor,Signal,Washington Road
+10017,7,EB,Minor,Signal,Washington Road
+10017,8,NB,Main,Signal,Washington Road
+10017,9,NB,Main,Signal,Washington Road
+10017,10,NB,Main,Signal,Washington Road
+10017,11,WB,Minor,MidBlock,Washington Road
+10017,12,WB,Minor,Signal,Washington Road
+10017,13,WB,Minor,Signal,Washington Road
+10017,14,WB,Minor,Signal,Washington Road
+10017,15,NB,Main,MidBlock,Washington Road
+10017,16,SB,Main,MidBlock,Washington Road
+10017,20,EB,Minor,Signal,Washington Road
+10017,21,NB,Main,MidBlock,Washington Road
+10017,22,NB,Main,MidBlock,Washington Road
+10017,23,NB,Main,MidBlock,Washington Road
+10017,24,NB,Main,MidBlock,Washington Road
+10018,1,SB,Main,Signal,Fisher Place
+10018,2,SB,Main,Signal,Fisher Place
+10018,3,SB,Main,Signal,Fisher Place
+10018,4,EB,Minor,Signal,Fisher Place
+10018,5,EB,Minor,Signal,Fisher Place
+10018,6,NB,Main,Signal,Fisher Place
+10018,7,NB,Main,Signal,Fisher Place
+10018,8,NB,Main,Signal,Fisher Place
+10018,9,WB,Minor,Signal,Fisher Place
+10018,20,EB,Minor,MidBlock,Fisher Place
+10019,1,SB,Main,Signal,Harrison Street
+10019,2,SB,Main,Signal,Harrison Street
+10019,3,SB,Main,Signal,Harrison Street
+10019,4,EB,Minor,Signal,Harrison Street
+10019,5,EB,Minor,Signal,Harrison Street
+10019,6,NB,Main,Signal,Harrison Street
+10019,7,NB,Main,Signal,Harrison Street
+10019,8,NB,Main,Signal,Harrison Street
+10019,9,WB,Minor,Signal,Harrison Street
+10019,10,WB,Minor,Signal,Harrison Street
+10019,18,SB,Main,MidBlock,Harrison Street
+10019,19,SB,Main,MidBlock,Harrison Street
+10019,20,SB,Main,MidBlock,Harrison Street
+10020,1,SB,Main,Signal,Independence Way 
+10020,2,SB,Main,Signal,Independence Way 
+10020,3,SB,Main,Signal,Independence Way 
+10020,4,EB,Minor,Signal,Independence Way 
+10020,5,EB,Minor,Signal,Independence Way 
+10020,6,EB,Minor,Signal,Independence Way 
+10020,7,NB,Main,Signal,Independence Way 
+10020,8,NB,Main,Signal,Independence Way 
+10020,9,NB,Main,Signal,Independence Way 
+10020,10,WB,Minor,Signal,Independence Way 
+10020,11,WB,Minor,Signal,Independence Way 
+10020,17,SB,Main,MidBlock,Independence Way 
+10020,18,SB,Main,MidBlock,Independence Way 
+10020,19,SB,Main,MidBlock,Independence Way 
+10020,21,NB,Main,MidBlock,Independence Way 
+10020,22,NB,Main,MidBlock,Independence Way 
+10020,23,NB,Main,MidBlock,Independence Way 
+10021,1,SB,Main,Signal,Ridge Road 
+10021,2,SB,Main,Signal,Ridge Road 
+10021,3,SB,Main,Signal,Ridge Road 
+10021,4,EB,Minor,Signal,Ridge Road 
+10021,5,EB,Minor,Signal,Ridge Road 
+10021,6,EB,Minor,Signal,Ridge Road 
+10021,7,NB,Main,Signal,Ridge Road 
+10021,8,NB,Main,Signal,Ridge Road 
+10021,9,NB,Main,Signal,Ridge Road 
+10021,10,WB,Minor,Signal,Ridge Road 
+10021,11,WB,Minor,Signal,Ridge Road 
+10021,17,SB,Main,MidBlock,Ridge Road 
+10021,18,SB,Main,MidBlock,Ridge Road 
+10021,19,SB,Main,MidBlock,Ridge Road 
+10021,21,NB,Main,MidBlock,Ridge Road 
+10021,22,NB,Main,MidBlock,Ridge Road 
+10021,23,NB,Main,MidBlock,Ridge Road 
+10022,1,SB,Main,Signal,Raymond Road 
+10022,2,SB,Main,Signal,Raymond Road 
+10022,3,SB,Main,Signal,Raymond Road 
+10022,4,EB,Minor,Signal,Raymond Road 
+10022,5,EB,Minor,Signal,Raymond Road 
+10022,6,NB,Main,Signal,Raymond Road 
+10022,7,NB,Main,Signal,Raymond Road 
+10022,8,NB,Main,Signal,Raymond Road 
+10022,9,WB,Minor,Signal,Raymond Road 
+10022,10,WB,Minor,Signal,Raymond Road 
+10022,21,NB,Main,MidBlock,Raymond Road 
+10022,22,NB,Main,MidBlock,Raymond Road 
+10022,23,NB,Main,MidBlock,Raymond Road 
+10023,1,SB,Main,Signal,Promenade Boulevard - Stouts Lane 
+10023,2,SB,Main,Signal,Promenade Boulevard - Stouts Lane 
+10023,3,SB,Main,Signal,Promenade Boulevard - Stouts Lane 
+10023,4,SB,Main,Signal,Promenade Boulevard - Stouts Lane 
+10023,5,EB,Minor,Signal,Promenade Boulevard - Stouts Lane 
+10023,6,EB,Minor,Signal,Promenade Boulevard - Stouts Lane 
+10023,7,EB,Minor,Signal,Promenade Boulevard - Stouts Lane 
+10023,8,NB,Main,Signal,Promenade Boulevard - Stouts Lane 
+10023,9,NB,Main,Signal,Promenade Boulevard - Stouts Lane 
+10023,10,NB,Main,Signal,Promenade Boulevard - Stouts Lane 
+10023,11,NB,Main,Signal,Promenade Boulevard - Stouts Lane 
+10023,12,WB,Minor,Signal,Promenade Boulevard - Stouts Lane 
+10023,13,WB,Minor,Signal,Promenade Boulevard - Stouts Lane 
+10023,14,WB,Minor,Signal,Promenade Boulevard - Stouts Lane 
+10024,1,SB,Main,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10024,2,SB,Main,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10024,3,SB,Main,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10024,4,EB,Minor,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10024,5,EB,Minor,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10024,6,EB,Minor,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10024,7,EB,Minor,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10024,8,NB,Main,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10024,9,NB,Main,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10024,10,NB,Main,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10024,11,WB,Minor,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10024,12,WB,Minor,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10024,13,WB,Minor,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10024,14,WB,Minor,Signal,Wynwood Drive - Whispering Woods Boulevard 
+10025,1,SB,Main,Signal,New Road 
+10025,2,SB,Main,Signal,New Road 
+10025,3,EB,Minor,Signal,New Road 
+10025,4,EB,Minor,Signal,New Road 
+10025,5,EB,Minor,Signal,New Road 
+10025,6,NB,Main,Signal,New Road 
+10025,7,NB,Main,Signal,New Road 
+10025,8,WB,Minor,Signal,New Road 
+10025,9,WB,Minor,Signal,New Road 
+10025,10,WB,Minor,Signal,New Road 
+10025,17,SB,Main,MidBlock,New Road 
+10025,18,SB,Main,MidBlock,New Road 
+10027,1,SB,Main,Signal,Beekman Road 
+10027,2,SB,Main,Signal,Beekman Road 
+10027,3,SB,Main,Signal,Beekman Road 
+10027,4,EB,Minor,Signal,Beekman Road 
+10027,5,EB,Minor,Signal,Beekman Road 
+10027,6,NB,Main,Signal,Beekman Road 
+10027,7,NB,Main,Signal,Beekman Road 
+10027,8,WB,Minor,Signal,Beekman Road 
+10027,9,WB,Minor,Signal,Beekman Road 
+10027,21,NB,Main,MidBlock,Beekman Road 
+10027,22,NB,Main,MidBlock,Beekman Road 
+10028,1,SB,Main,Signal,Deans Lane
+10028,2,SB,Main,Signal,Deans Lane
+10028,3,EB,Minor,Signal,Deans Lane
+10028,4,EB,Minor,Signal,Deans Lane
+10028,5,NB,Main,Signal,Deans Lane
+10028,6,NB,Main,Signal,Deans Lane
+10028,7,NB,Main,Signal,Deans Lane
+10028,8,WB,Minor,Signal,Deans Lane
+10028,9,WB,Minor,Signal,Deans Lane
+10029,1,SB,Main,Signal,Henderson Road 
+10029,2,SB,Main,Signal,Henderson Road 
+10029,3,SB,Main,Signal,Henderson Road 
+10029,4,EB,Minor,Signal,Henderson Road 
+10029,5,EB,Minor,Signal,Henderson Road 
+10029,6,NB,Main,Signal,Henderson Road 
+10029,7,NB,Main,Signal,Henderson Road 
+10029,8,WB,Minor,Signal,Henderson Road 
+10029,9,WB,Minor,Signal,Henderson Road 
+10030,1,SB,Main,Signal,Blackhorse Lane 
+10030,2,SB,Main,Signal,Blackhorse Lane 
+10030,3,EB,Minor,Signal,Blackhorse Lane 
+10030,4,EB,Minor,Signal,Blackhorse Lane 
+10030,5,NB,Main,Signal,Blackhorse Lane 
+10030,6,NB,Main,Signal,Blackhorse Lane 
+10030,7,WB,Minor,Signal,Blackhorse Lane 
+10031,1,SB,Main,Signal,Finnegans Lane
+10031,2,SB,Main,Signal,Finnegans Lane
+10031,3,EB,Minor,Signal,Finnegans Lane
+10031,4,EB,Minor,Signal,Finnegans Lane
+10031,5,EB,Minor,Signal,Finnegans Lane
+10031,6,NB,Main,Signal,Finnegans Lane
+10031,7,NB,Main,Signal,Finnegans Lane
+10031,8,WB,Minor,Signal,Finnegans Lane
+10031,9,WB,Minor,Signal,Finnegans Lane
+10031,18,SB,Main,MidBlock,Finnegans Lane
+10031,17,SB,Main,MidBlock,Finnegans Lane
+10032,1,SB,Main,Signal,Aaron Road 
+10032,2,SB,Main,Signal,Aaron Road 
+10032,3,SB,Main,Signal,Aaron Road 
+10032,4,EB,Minor,Signal,Aaron Road 
+10032,5,EB,Minor,Signal,Aaron Road 
+10032,6,EB,Minor,Signal,Aaron Road 
+10032,7,EB,Minor,Signal,Aaron Road 
+10032,8,EB,Minor,Signal,Aaron Road 
+10032,9,NB,Main,Signal,Aaron Road 
+10032,10,NB,Main,Signal,Aaron Road 
+10032,11,NB,Main,Signal,Aaron Road 
+10032,12,WB,Minor,Signal,Aaron Road 
+10032,13,WB,Minor,Signal,Aaron Road 
+10032,14,WB,Minor,Signal,Aaron Road 
+10032,15,WB,Minor,Signal,Aaron Road 
+10032,21,NB,Main,MidBlock,Aaron Road 
+10032,22,NB,Main,MidBlock,Aaron Road 
+10033,1,SB,Main,Signal,Commerce Boulevard 
+10033,2,SB,Main,Signal,Commerce Boulevard 
+10033,3,SB,Main,Signal,Commerce Boulevard 
+10033,4,SB,Main,Signal,Commerce Boulevard 
+10033,5,EB,Minor,Signal,Commerce Boulevard 
+10033,6,EB,Minor,Signal,Commerce Boulevard 
+10033,7,EB,Minor,Signal,Commerce Boulevard 
+10033,8,EB,Minor,Signal,Commerce Boulevard 
+10033,9,EB,Minor,Signal,Commerce Boulevard 
+10033,10,NB,Main,Signal,Commerce Boulevard 
+10033,11,NB,Main,Signal,Commerce Boulevard 
+10033,11,NB,Main,Signal,Commerce Boulevard 
+10033,12,WB,Minor,Signal,Commerce Boulevard 
+10033,13,WB,Minor,Signal,Commerce Boulevard 
+10033,14,WB,Minor,Signal,Commerce Boulevard 
+10033,15,WB,Minor,Signal,Commerce Boulevard 
+10033,16,WB,Minor,Signal,Commerce Boulevard 
+10034,1,SB,Main,Signal,Adams Lane - Cozzens Lane 
+10034,2,SB,Main,Signal,Adams Lane - Cozzens Lane 
+10034,3,SB,Main,Signal,Adams Lane - Cozzens Lane 
+10034,4,SB,Main,Signal,Adams Lane - Cozzens Lane 
+10034,5,EB,Minor,Signal,Adams Lane - Cozzens Lane 
+10034,6,EB,Minor,Signal,Adams Lane - Cozzens Lane 
+10034,7,EB,Minor,Signal,Adams Lane - Cozzens Lane 
+10034,8,NB,Main,Signal,Adams Lane - Cozzens Lane 
+10034,9,NB,Main,Signal,Adams Lane - Cozzens Lane 
+10034,10,NB,Main,Signal,Adams Lane - Cozzens Lane 
+10034,11,WB,Minor,Signal,Adams Lane - Cozzens Lane 
+10034,12,WB,Minor,Signal,Adams Lane - Cozzens Lane 
+10034,13,WB,Minor,Signal,Adams Lane - Cozzens Lane 
+10034,14,WB,Minor,Signal,Adams Lane - Cozzens Lane 
+10034,17,SB,Main,MidBlock,Adams Lane - Cozzens Lane 
+10034,18,SB,Main,MidBlock,Adams Lane - Cozzens Lane 
+10034,19,SB,Main,MidBlock,Adams Lane - Cozzens Lane 
+10034,20,SB,Main,MidBlock,Adams Lane - Cozzens Lane 
+10035,1,SB,Main,Signal,North Oaks Boulevard 
+10035,2,SB,Main,Signal,North Oaks Boulevard 
+10035,3,SB,Main,Signal,North Oaks Boulevard 
+10035,4,EB,Minor,Signal,North Oaks Boulevard 
+10035,5,EB,Minor,Signal,North Oaks Boulevard 
+10035,6,EB,Minor,Signal,North Oaks Boulevard 
+10035,7,NB,Main,Signal,North Oaks Boulevard 
+10035,8,NB,Main,Signal,North Oaks Boulevard 
+10035,9,NB,Main,Signal,North Oaks Boulevard 
+10035,17,SB,Main,MidBlock,North Oaks Boulevard 
+10035,18,SB,Main,MidBlock,North Oaks Boulevard 
+10035,19,SB,Main,MidBlock,North Oaks Boulevard 
+10035,21,NB,Main,MidBlock,North Oaks Boulevard 
+10035,22,NB,Main,MidBlock,North Oaks Boulevard 
+10035,23,NB,Main,MidBlock,North Oaks Boulevard 
+10035,24,NB,Main,MidBlock,North Oaks Boulevard 
+10036,1,SB,Main,Signal,Fashion Plaza Entrance 
+10036,2,SB,Main,Signal,Fashion Plaza Entrance 
+10036,3,SB,Main,Signal,Fashion Plaza Entrance 
+10036,4,EB,Minor,Signal,Fashion Plaza Entrance 
+10036,5,EB,Minor,Signal,Fashion Plaza Entrance 
+10036,6,EB,Minor,Signal,Fashion Plaza Entrance 
+10036,7,NB,Main,Signal,Fashion Plaza Entrance 
+10036,8,NB,Main,Signal,Fashion Plaza Entrance 
+10036,9,NB,Main,Signal,Fashion Plaza Entrance 
+10036,10,WB,Minor,Signal,Fashion Plaza Entrance 
+10036,11,WB,Minor,MidBlock,Fashion Plaza Entrance 
+10036,21,NB,Main,MidBlock,Fashion Plaza Entrance 
+10036,22,NB,Main,MidBlock,Fashion Plaza Entrance 
+10036,23,NB,Main,MidBlock,Fashion Plaza Entrance 
+10040,1,SB,Main,Signal,Plainfield Avenue
+10040,2,SB,Main,Signal,Plainfield Avenue
+10040,3,SB,Main,Signal,Plainfield Avenue
+10040,4,EB,Minor,Signal,Plainfield Avenue
+10040,5,EB,Minor,Signal,Plainfield Avenue
+10040,6,NB,Main,Signal,Plainfield Avenue
+10040,7,NB,Main,Signal,Plainfield Avenue
+10040,8,NB,Main,Signal,Plainfield Avenue
+10040,9,WB,Minor,Signal,Plainfield Avenue
+10040,10,WB,Minor,Signal,Plainfield Avenue
+10040,17,NB,Main,MidBlock,Plainfield Avenue
+10040,18,NB,Main,MidBlock,Plainfield Avenue
+10040,19,NB,Main,MidBlock,Plainfield Avenue
+10040,20,NB,Main,MidBlock,Plainfield Avenue
+10040,21,SB,Main,MidBlock,Plainfield Avenue
+10040,22,SB,Main,MidBlock,Plainfield Avenue
+10040,23,SB,Main,MidBlock,Plainfield Avenue
+10041,1,SB,Main,Signal,Wooding Avenue 
+10041,2,SB,Main,Signal,Wooding Avenue 
+10041,3,SB,Main,Signal,Wooding Avenue 
+10041,4,EB,Minor,Signal,Wooding Avenue 
+10041,5,NB,Main,Signal,Wooding Avenue 
+10041,6,NB,Main,Signal,Wooding Avenue 
+10041,7,NB,Main,Signal,Wooding Avenue 
+10041,8,WB,Minor,Signal,Wooding Avenue 
+10041,17,NB,Main,MidBlock,Wooding Avenue 
+10041,18,NB,Main,MidBlock,Wooding Avenue 
+10041,19,NB,Main,MidBlock,Wooding Avenue 
+10042,1,SB,Main,Signal,Old Post Road (South) 
+10042,2,SB,Main,Signal,Old Post Road (South) 
+10042,3,SB,Main,Signal,Old Post Road (South) 
+10042,4,EB,Minor,Signal,Old Post Road (South) 
+10042,5,EB,Minor,Signal,Old Post Road (South) 
+10042,6,EB,Minor,Signal,Old Post Road (South) 
+10042,7,NB,Main,Signal,Old Post Road (South) 
+10042,8,NB,Main,Signal,Old Post Road (South) 
+10042,9,NB,Main,Signal,Old Post Road (South) 
+10042,10,WB,Minor,Signal,Old Post Road (South) 
+10042,11,WB,Minor,Signal,Old Post Road (South) 
+10042,12,WB,Minor,Signal,Old Post Road (South) 
+10042,21,SB,Main,MidBlock,Old Post Road (South) 
+10042,22,SB,Main,MidBlock,Old Post Road (South) 
+10042,23,SB,Main,MidBlock,Old Post Road (South) 
+10043,1,SB,Main,Signal,Old Post Road (North) 
+10043,2,SB,Main,Signal,Old Post Road (North) 
+10043,3,SB,Main,Signal,Old Post Road (North) 
+10043,4,EB,Minor,Signal,Old Post Road (North) 
+10043,5,EB,Minor,Signal,Old Post Road (North) 
+10043,6,EB,Minor,Signal,Old Post Road (North) 
+10043,7,NB,Main,Signal,Old Post Road (North) 
+10043,8,NB,Main,Signal,Old Post Road (North) 
+10043,9,NB,Main,Signal,Old Post Road (North) 
+10043,10,WB,Minor,Signal,Old Post Road (North) 
+10043,11,WB,Minor,Signal,Old Post Road (North) 
+10043,17,NB,Main,MidBlock,Old Post Road (North) 
+10043,18,NB,Main,MidBlock,Old Post Road (North) 
+10043,19,NB,Main,MidBlock,Old Post Road (North) 
+10044,1,SB,Main,Signal,Edison Sq Towne Dr
+10044,2,SB,Main,Signal,Edison Sq Towne Dr
+10044,3,SB,Main,Signal,Edison Sq Towne Dr
+10044,4,EB,Minor,Signal,Edison Sq Towne Dr
+10044,5,EB,Minor,Signal,Edison Sq Towne Dr
+10044,6,NB,Main,Signal,Edison Sq Towne Dr
+10044,7,NB,Main,Signal,Edison Sq Towne Dr
+10044,8,NB,Main,Signal,Edison Sq Towne Dr
+10045,1,SB,Main,Signal,Forrest Haven Boulevard 
+10045,2,SB,Main,Signal,Forrest Haven Boulevard 
+10045,3,SB,Main,Signal,Forrest Haven Boulevard 
+10045,4,EB,Minor,Signal,Forrest Haven Boulevard 
+10045,5,EB,Minor,Signal,Forrest Haven Boulevard 
+10045,6,EB,Minor,Signal,Forrest Haven Boulevard 
+10045,7,NB,Main,Signal,Forrest Haven Boulevard 
+10045,8,NB,Main,Signal,Forrest Haven Boulevard 
+10045,9,NB,Main,Signal,Forrest Haven Boulevard 
+10045,10,WB,Minor,Signal,Forrest Haven Boulevard 
+10045,11,WB,Minor,Signal,Forrest Haven Boulevard 
+10045,12,WB,Minor,Signal,Forrest Haven Boulevard 
+10045,13,WB,Minor,Signal,Forrest Haven Boulevard 
+10046,1,SB,Main,Signal,Prince Street 
+10046,2,SB,Main,Signal,Prince Street 
+10046,3,SB,Main,Signal,Prince Street 
+10046,4,SB,Main,Signal,Prince Street 
+10046,5,EB,Minor,Signal,Prince Street 
+10046,6,EB,Minor,Signal,Prince Street 
+10046,7,NB,Main,Signal,Prince Street 
+10046,8,NB,Main,Signal,Prince Street 
+10046,9,NB,Main,Signal,Prince Street 
+10046,21,SB,Main,MidBlock,Prince Street 
+10046,22,SB,Main,MidBlock,Prince Street 
+10046,23,SB,Main,MidBlock,Prince Street 
+10046,24,SB,Main,MidBlock,Prince Street 
+10047,1,SB,Main,Signal,Grandview Avenue 
+10047,2,SB,Main,Signal,Grandview Avenue 
+10047,3,SB,Main,Signal,Grandview Avenue 
+10047,4,SB,Main,Signal,Grandview Avenue 
+10047,5,EB,Minor,Signal,Grandview Avenue 
+10047,6,EB,Minor,Signal,Grandview Avenue 
+10047,7,NB,Main,Signal,Grandview Avenue 
+10047,8,NB,Main,Signal,Grandview Avenue 
+10047,9,NB,Main,Signal,Grandview Avenue 
+10047,10,NB,Main,Signal,Grandview Avenue 
+10047,11,WB,Minor,Signal,Grandview Avenue 
+10047,12,WB,Minor,Signal,Grandview Avenue 
+10047,17,NB,Main,MidBlock,Grandview Avenue 
+10047,18,NB,Main,MidBlock,Grandview Avenue 
+10047,19,NB,Main,MidBlock,Grandview Avenue 
+10047,20,NB,Main,MidBlock,Grandview Avenue 
+10047,21,SB,Main,MidBlock,Grandview Avenue 
+10047,22,SB,Main,MidBlock,Grandview Avenue 
+10047,23,SB,Main,MidBlock,Grandview Avenue 
+10048,1,SB,Main,Signal,Parsonage Road 
+10048,2,SB,Main,Signal,Parsonage Road 
+10048,3,SB,Main,Signal,Parsonage Road 
+10048,4,EB,Minor,Signal,Parsonage Road 
+10048,5,EB,Minor,Signal,Parsonage Road 
+10048,6,EB,Minor,Signal,Parsonage Road 
+10048,7,NB,Main,Signal,Parsonage Road 
+10048,8,NB,Main,Signal,Parsonage Road 
+10048,9,NB,Main,Signal,Parsonage Road 
+10048,10,NB,Main,Signal,Parsonage Road 
+10048,11,WB,Minor,Signal,Parsonage Road 
+10048,12,WB,Minor,Signal,Parsonage Road 
+10048,13,WB,Minor,Signal,Parsonage Road 
+10048,17,NB,Main,MidBlock,Parsonage Road 
+10048,18,NB,Main,MidBlock,Parsonage Road 
+10048,19,NB,Main,MidBlock,Parsonage Road 
+10048,20,NB,Main,MidBlock,Parsonage Road 
+10048,21,SB,Main,MidBlock,Parsonage Road 
+10048,22,SB,Main,MidBlock,Parsonage Road 
+10048,23,SB,Main,MidBlock,Parsonage Road 
+10048,24,EB,Minor,MidBlock,Parsonage Road 
+10048,24,EB,Minor,MidBlock,Parsonage Road 
+10048,24,EB,Minor,MidBlock,Parsonage Road 
+10049,1,SB,Main,Signal,Parsonage Road & Lafayette 
+10049,2,EB,Minor,Signal,Parsonage Road & Lafayette 
+10049,3,EB,Minor,Signal,Parsonage Road & Lafayette 
+10049,4,EB,Minor,Signal,Parsonage Road & Lafayette 
+10049,5,NB,Main,Signal,Parsonage Road & Lafayette 
+10049,6,NB,Main,Signal,Parsonage Road & Lafayette 
+10049,7,NB,Main,Signal,Parsonage Road & Lafayette 
+10049,8,WB,Minor,Signal,Parsonage Road & Lafayette 
+10049,9,WB,Minor,Signal,Parsonage Road & Lafayette 
+10049,10,WB,Minor,Signal,Parsonage Road & Lafayette 
+10049,24,WB,Minor,MidBlock,Parsonage Road & Lafayette 
+10049,24,WB,Minor,MidBlock,Parsonage Road & Lafayette 
+10049,24,WB,Minor,MidBlock,Parsonage Road & Lafayette 
+10050,1,SB,Main,Signal,Ford Avenue 
+10050,2,SB,Main,Signal,Ford Avenue 
+10050,3,SB,Main,Signal,Ford Avenue 
+10050,4,SB,Main,Signal,Ford Avenue 
+10050,5,EB,Minor,Signal,Ford Avenue 
+10050,6,EB,Minor,Signal,Ford Avenue 
+10050,7,NB,Main,Signal,Ford Avenue 
+10050,8,NB,Main,Signal,Ford Avenue 
+10050,9,NB,Main,Signal,Ford Avenue 
+10050,10,NB,Main,Signal,Ford Avenue 
+10050,11,WB,Minor,Signal,Ford Avenue 
+10050,12,WB,Minor,Signal,Ford Avenue 
+10050,13,WB,Minor,Signal,Ford Avenue 
+10050,17,NB,Main,MidBlock,Ford Avenue 
+10050,18,NB,Main,MidBlock,Ford Avenue 
+10050,19,NB,Main,MidBlock,Ford Avenue 
+10050,20,NB,Main,MidBlock,Ford Avenue 
+10050,21,SB,Main,MidBlock,Ford Avenue 
+10050,22,SB,Main,MidBlock,Ford Avenue 
+10050,23,SB,Main,MidBlock,Ford Avenue 
+10050,24,SB,Main,MidBlock,Ford Avenue 
+10051,1,SB,Main,Signal,Woodbridge Center Drive - Gill Lane 
+10051,2,SB,Main,Signal,Woodbridge Center Drive - Gill Lane 
+10051,3,SB,Main,Signal,Woodbridge Center Drive - Gill Lane 
+10051,4,SB,Main,Signal,Woodbridge Center Drive - Gill Lane 
+10051,5,EB,Minor,Signal,Woodbridge Center Drive - Gill Lane 
+10051,6,EB,Minor,Signal,Woodbridge Center Drive - Gill Lane 
+10051,7,EB,Minor,Signal,Woodbridge Center Drive - Gill Lane 
+10051,8,EB,Minor,Signal,Woodbridge Center Drive - Gill Lane 
+10051,9,NB,Main,Signal,Woodbridge Center Drive - Gill Lane 
+10051,10,NB,Main,Signal,Woodbridge Center Drive - Gill Lane 
+10051,11,NB,Main,Signal,Woodbridge Center Drive - Gill Lane 
+10051,12,NB,Main,Signal,Woodbridge Center Drive - Gill Lane 
+10051,13,WB,Minor,Signal,Woodbridge Center Drive - Gill Lane 
+10051,14,WB,Minor,Signal,Woodbridge Center Drive - Gill Lane 
+10051,15,WB,Minor,Signal,Woodbridge Center Drive - Gill Lane 
+10051,16,WB,Minor,Signal,Woodbridge Center Drive - Gill Lane 
+10051,17,NB,Main,MidBlock,Woodbridge Center Drive - Gill Lane 
+10051,18,NB,Main,MidBlock,Woodbridge Center Drive - Gill Lane 
+10051,19,NB,Main,MidBlock,Woodbridge Center Drive - Gill Lane 
+10051,21,SB,Main,MidBlock,Woodbridge Center Drive - Gill Lane 
+10051,22,SB,Main,MidBlock,Woodbridge Center Drive - Gill Lane 
+10051,23,SB,Main,MidBlock,Woodbridge Center Drive - Gill Lane 
+10052,1,SB,Main,Signal,Green Street 
+10052,2,SB,Main,Signal,Green Street 
+10052,3,SB,Main,Signal,Green Street 
+10052,4,EB,Minor,Signal,Green Street 
+10052,5,EB,Minor,Signal,Green Street 
+10052,6,EB,Minor,Signal,Green Street 
+10052,7,EB,Minor,Signal,Green Street 
+10052,8,NB,Main,Signal,Green Street 
+10052,9,NB,Main,Signal,Green Street 
+10052,10,NB,Main,Signal,Green Street 
+10052,11,WB,Minor,Signal,Green Street 
+10052,12,WB,Minor,Signal,Green Street 
+10052,13,WB,Minor,Signal,Green Street 
+10052,14,WB,Minor,Signal,Green Street 
+10052,17,NB,Main,MidBlock,Green Street 
+10052,18,NB,Main,MidBlock,Green Street 
+10052,19,NB,Main,MidBlock,Green Street 
+10052,20,NB,Main,MidBlock,Green Street 
+10052,21,SB,Main,MidBlock,Green Street 
+10052,22,SB,Main,MidBlock,Green Street 
+10052,23,SB,Main,MidBlock,Green Street 
