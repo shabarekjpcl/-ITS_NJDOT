@@ -16,7 +16,7 @@ TOD_phase_optimization_from_historical_dates <- function(site,dates_list,analysi
   list_phase_files <- dates_list 
   df_final_phases <- NULL
   for (p_k in dates_list){
-    df <- readr::read_csv(paste0("https://raw.githubusercontent.com/Jpcl_Engineering/ITS_NJDOT/main/History_Viewer/History_Viewer_Data_Archieve/",Rt_code,"_Phases_",p_k,".csv"))
+    df <- readr::read_csv(paste0("https://raw.githubusercontent.com/Jpcl-Engineering/ITS_NJDOT/main/History_Viewer/History_Viewer_Data_Archieve/",Rt_code,"_Phases_",p_k,".csv"))
     df <- df[df$Site == site,]
     df$date <- as.Date(substr(df$Start,1,10))
     df$start_time <- as.integer(hms::as_hms(substr(df$Start,12,19)))
